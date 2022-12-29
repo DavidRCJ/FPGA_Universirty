@@ -1,0 +1,76 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : Prueba_VGA.vf
+// /___/   /\     Timestamp : 06/12/2019 19:02:11
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan3e -verilog C:/Users/David/Desktop/ExpoVGA/VGA/Prueba_VGA.vf -w C:/Users/David/Desktop/ExpoVGA/VGA/Prueba_VGA.sch
+//Design Name: Prueba_VGA
+//Device: spartan3e
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module Prueba_VGA(clk, 
+                  rst, 
+                  B, 
+                  G, 
+                  HSYNC, 
+                  R, 
+                  VSYNC);
+
+    input clk;
+    input rst;
+   output B;
+   output G;
+   output HSYNC;
+   output R;
+   output VSYNC;
+   
+   wire [10:0] XLXN_1;
+   wire [9:0] XLXN_5;
+   wire XLXN_15;
+   wire XLXN_16;
+   wire HSYNC_DUMMY;
+   
+   assign HSYNC = HSYNC_DUMMY;
+   contador_horizontal  XLXI_1 (.clk50MHz(XLXN_15), 
+                               .reset(rst), 
+                               .h_cuenta(XLXN_1[10:0]));
+   generador_hsync  XLXI_2 (.clk50MHz(XLXN_15), 
+                           .h_cuenta(XLXN_1[10:0]), 
+                           .reset(rst), 
+                           .hsync(HSYNC_DUMMY));
+   contador_vertical  XLXI_3 (.clk50MHz(XLXN_15), 
+                             .hsync(HSYNC_DUMMY), 
+                             .reset(rst), 
+                             .v_cuenta(XLXN_5[9:0]));
+   generador_vsync  XLXI_4 (.clk50MHz(XLXN_15), 
+                           .reset(rst), 
+                           .v_cuenta(XLXN_5[9:0]), 
+                           .vsync(VSYNC));
+   generador_blank  XLXI_5 (.hctr(XLXN_1[10:0]), 
+                           .vctr(XLXN_5[9:0]), 
+                           .blank(XLXN_16));
+   generador_imagen  XLXI_6 (.blank(XLXN_16), 
+                            .clk50MHz(XLXN_15), 
+                            .hctr(XLXN_1[10:0]), 
+                            .reset(rst), 
+                            .vctr(XLXN_5[9:0]), 
+                            .B(B), 
+                            .G(G), 
+                            .R(R));
+   DCM  XLXI_7 (.CLKIN_IN(clk), 
+               .RST_IN(rst), 
+               .CLKIN_IBUFG_OUT(), 
+               .CLK0_OUT(XLXN_15));
+endmodule

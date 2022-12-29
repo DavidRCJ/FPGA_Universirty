@@ -1,0 +1,8 @@
+vhdl work "C:\Users\Cars\Desktop\TetrisBluetooth\counter.vhd"
+vhdl work "C:\Users\Cars\Desktop\TetrisBluetooth\vga.vhd"
+vhdl work "C:\Users\Cars\Desktop\TetrisBluetooth\uart_rx.vhd"
+vhdl work "C:\Users\Cars\Desktop\TetrisBluetooth\text_display.vhd"
+vhdl work "C:\Users\Cars\Desktop\TetrisBluetooth\tetris_display.vhd"
+vhdl work "C:\Users\Cars\Desktop\TetrisBluetooth\score_control.vhd"
+vhdl work "C:\Users\Cars\Desktop\TetrisBluetooth\game_control.vhd"
+vhdl work "C:\Users\Cars\Desktop\TetrisBluetooth\tetris.vhd"

@@ -1,0 +1,6 @@
+[Inputs]
+=hctr[10:0]=
+=vctr[9:0]=
+[Outputs]
+blank
+[BiDir]

@@ -1,0 +1,377 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.17 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.17 secs
+ 
+--> Reading design: generador_imagen.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "generador_imagen.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "generador_imagen"
+Output Format                      : NGC
+Target Device                      : xc3s500e-4-fg320
+
+---- Source Options
+Top Module Name                    : generador_imagen
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/kevin/FPGA Workspace/Xilinx/VGA/generador_imagen.vhd" in Library work.
+Entity <generador_imagen> compiled.
+Entity <generador_imagen> (Architecture <comportamiento>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <generador_imagen> in library <work> (architecture <comportamiento>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <generador_imagen> in library <work> (Architecture <comportamiento>).
+Entity <generador_imagen> analyzed. Unit <generador_imagen> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <generador_imagen>.
+    Related source file is "C:/Users/kevin/FPGA Workspace/Xilinx/VGA/generador_imagen.vhd".
+WARNING:Xst:646 - Signal <vctr_int> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found 1-bit register for signal <R>.
+    Found 1-bit register for signal <G>.
+    Found 1-bit register for signal <B>.
+    Found 11-bit comparator greatequal for signal <color$cmp_ge0000> created at line 48.
+    Found 11-bit comparator greatequal for signal <color$cmp_ge0001> created at line 48.
+    Found 11-bit comparator greatequal for signal <color$cmp_ge0002> created at line 48.
+    Found 11-bit comparator greatequal for signal <color$cmp_ge0003> created at line 48.
+    Found 11-bit comparator greatequal for signal <color$cmp_ge0004> created at line 48.
+    Found 11-bit comparator greatequal for signal <color$cmp_ge0005> created at line 48.
+    Found 11-bit comparator greatequal for signal <color$cmp_ge0006> created at line 48.
+    Found 11-bit comparator greater for signal <color$cmp_gt0000> created at line 48.
+    Found 11-bit comparator lessequal for signal <color$cmp_le0000> created at line 48.
+    Found 11-bit comparator lessequal for signal <color$cmp_le0001> created at line 48.
+    Found 11-bit comparator less for signal <color$cmp_lt0000> created at line 48.
+    Found 11-bit comparator less for signal <color$cmp_lt0001> created at line 48.
+    Found 11-bit comparator less for signal <color$cmp_lt0002> created at line 48.
+    Found 11-bit comparator less for signal <color$cmp_lt0003> created at line 48.
+    Found 11-bit comparator less for signal <color$cmp_lt0004> created at line 48.
+    Found 11-bit comparator less for signal <color$cmp_lt0005> created at line 48.
+    Found 11-bit comparator less for signal <color$cmp_lt0006> created at line 48.
+    Summary:
+	inferred   3 D-type flip-flop(s).
+	inferred  17 Comparator(s).
+Unit <generador_imagen> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 3
+ 1-bit register                                        : 3
+# Comparators                                          : 17
+ 11-bit comparator greatequal                          : 7
+ 11-bit comparator greater                             : 1
+ 11-bit comparator less                                : 7
+ 11-bit comparator lessequal                           : 2
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 3
+ Flip-Flops                                            : 3
+# Comparators                                          : 17
+ 11-bit comparator greatequal                          : 7
+ 11-bit comparator greater                             : 1
+ 11-bit comparator less                                : 7
+ 11-bit comparator lessequal                           : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <generador_imagen> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block generador_imagen, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 3
+ Flip-Flops                                            : 3
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : generador_imagen.ngr
+Top Level Output File Name         : generador_imagen
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 27
+
+Cell Usage :
+# BELS                             : 80
+#      GND                         : 1
+#      INV                         : 8
+#      LUT1                        : 7
+#      LUT2                        : 8
+#      LUT3                        : 10
+#      LUT4                        : 17
+#      MUXCY                       : 26
+#      MUXF5                       : 2
+#      VCC                         : 1
+# FlipFlops/Latches                : 3
+#      FDC                         : 3
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 16
+#      IBUF                        : 13
+#      OBUF                        : 3
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-4 
+
+ Number of Slices:                       27  out of   4656     0%  
+ Number of 4 input LUTs:                 50  out of   9312     0%  
+ Number of IOs:                          27
+ Number of bonded IOBs:                  17  out of    232     7%  
+    IOB Flip Flops:                       3
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk50MHz                           | BUFGP                  | 3     |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+reset                              | IBUF                   | 3     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: 9.455ns
+   Maximum output required time after clock: 4.283ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk50MHz'
+  Total number of paths / destination ports: 296 / 3
+-------------------------------------------------------------------------
+Offset:              9.455ns (Levels of Logic = 13)
+  Source:            hctr<2> (PAD)
+  Destination:       G (FF)
+  Destination Clock: clk50MHz rising
+
+  Data Path: hctr<2> to G
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             7   1.218   0.883  hctr_2_IBUF (hctr_2_IBUF)
+     LUT1:I0->O            1   0.704   0.000  Mcompar_color_cmp_le0000_cy<1>_rt (Mcompar_color_cmp_le0000_cy<1>_rt)
+     MUXCY:S->O            1   0.464   0.000  Mcompar_color_cmp_le0000_cy<1> (Mcompar_color_cmp_le0000_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  Mcompar_color_cmp_le0000_cy<2> (Mcompar_color_cmp_le0000_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  Mcompar_color_cmp_le0000_cy<3> (Mcompar_color_cmp_le0000_cy<3>)
+     MUXCY:CI->O           1   0.059   0.000  Mcompar_color_cmp_le0000_cy<4> (Mcompar_color_cmp_le0000_cy<4>)
+     MUXCY:CI->O           1   0.059   0.000  Mcompar_color_cmp_le0000_cy<5> (Mcompar_color_cmp_le0000_cy<5>)
+     MUXCY:CI->O           3   0.459   0.610  Mcompar_color_cmp_le0000_cy<6> (color_cmp_le0000)
+     LUT4:I1->O            1   0.704   0.000  color<0>111 (color<0>11)
+     MUXF5:I1->O           2   0.321   0.526  color<0>11_f5 (N14)
+     LUT3:I1->O            1   0.704   0.455  color<1>25_SW0 (N21)
+     LUT4:I2->O            1   0.704   0.455  color<1>25 (color<1>25)
+     LUT3:I2->O            1   0.704   0.000  color<1>45 (color<1>)
+     FDC:D                     0.308          G
+    ----------------------------------------
+    Total                      9.455ns (6.526ns logic, 2.929ns route)
+                                       (69.0% logic, 31.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk50MHz'
+  Total number of paths / destination ports: 3 / 3
+-------------------------------------------------------------------------
+Offset:              4.283ns (Levels of Logic = 1)
+  Source:            B (FF)
+  Destination:       B (PAD)
+  Source Clock:      clk50MHz rising
+
+  Data Path: B to B
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              1   0.591   0.420  B (B_OBUF)
+     OBUF:I->O                 3.272          B_OBUF (B)
+    ----------------------------------------
+    Total                      4.283ns (3.863ns logic, 0.420ns route)
+                                       (90.2% logic, 9.8% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 5.79 secs
+ 
+--> 
+
+Total memory usage is 4521476 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

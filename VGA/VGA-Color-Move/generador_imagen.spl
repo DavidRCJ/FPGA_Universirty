@@ -1,0 +1,11 @@
+[Inputs]
+blank
+clk50MHz
+reset
+=hctr[10:0]=
+=vctr[9:0]=
+[Outputs]
+R
+G
+B
+[BiDir]

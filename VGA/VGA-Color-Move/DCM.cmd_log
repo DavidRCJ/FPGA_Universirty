@@ -1,0 +1,2 @@
+xaw2spl {-intstyle ise} {C:/Users/kevin/FPGA Workspace/Xilinx/VGA/ipcore_dir/DCM.xaw} 
+spl2sym -intstyle ise -family spartan3e DCM.spl {C:/Users/kevin/FPGA Workspace/Xilinx/VGA/DCM.sym} 

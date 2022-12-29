@@ -1,0 +1,11 @@
+[Inputs]
+RST_IN
+CLKIN_IN
+
+[Outputs]
+CLKIN_IBUFG_OUT
+CLK0_OUT
+
+[BiDir]
+[Type]
+BLOCK

@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "C:/Users/kevin/FPGA Workspace/Xilinx/VGA/generador_blank.xst" -ofn "C:/Users/kevin/FPGA Workspace/Xilinx/VGA/generador_blank.syr" 
+vhdtdtfi -lib work generador_blank.vhd -prj VGA -o generador_blank.spl -module generador_blank -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e generador_blank.spl {C:/Users/kevin/FPGA Workspace/Xilinx/VGA/generador_blank.sym} 

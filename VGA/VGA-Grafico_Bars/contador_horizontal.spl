@@ -1,0 +1,6 @@
+[Inputs]
+clk50MHz
+reset
+[Outputs]
+=h_cuenta[10:0]=
+[BiDir]

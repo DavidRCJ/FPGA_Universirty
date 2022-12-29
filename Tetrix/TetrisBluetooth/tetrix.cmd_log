@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "C:/Users/kevin/FPGA Workspace/Xilinx/Tetris/tetrix.xst" -ofn "C:/Users/kevin/FPGA Workspace/Xilinx/Tetris/tetrix.syr" 
+xst -intstyle ise -ifn "C:/Users/kevin/FPGA Workspace/Xilinx/Tetris/tetrix.xst" -ofn "C:/Users/kevin/FPGA Workspace/Xilinx/Tetris/tetrix.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tetris.ucf -p xc3s500e-fg320-5 "tetrix.ngc" tetrix.ngd  
+map -intstyle ise -p xc3s500e-fg320-5 -cm area -ir off -pr off -c 100 -o tetrix_map.ncd tetrix.ngd tetrix.pcf 
+par -w -intstyle ise -ol high -t 1 tetrix_map.ncd tetrix.ncd tetrix.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml tetrix.twx tetrix.ncd -o tetrix.twr tetrix.pcf -ucf tetris.ucf 
+bitgen -intstyle ise -f tetrix.ut tetrix.ncd 

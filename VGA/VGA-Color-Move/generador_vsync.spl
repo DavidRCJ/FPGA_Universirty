@@ -1,0 +1,7 @@
+[Inputs]
+clk50MHz
+reset
+=v_cuenta[9:0]=
+[Outputs]
+vsync
+[BiDir]

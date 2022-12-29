@@ -1,0 +1,15 @@
+MODULE Prueba_VGA
+	SUBMODULE contador_horizontal
+		INSTANCE XLXI_1
+	SUBMODULE generador_hsync
+		INSTANCE XLXI_2
+	SUBMODULE contador_vertical
+		INSTANCE XLXI_3
+	SUBMODULE generador_vsync
+		INSTANCE XLXI_4
+	SUBMODULE generador_blank
+		INSTANCE XLXI_5
+	SUBMODULE generador_imagen
+		INSTANCE XLXI_6
+	SUBMODULE DCM
+		INSTANCE XLXI_7

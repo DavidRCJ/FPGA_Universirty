@@ -1,0 +1,6 @@
+vhdl work "C:\Users\kevin\FPGA Workspace\Xilinx\VGA\generador_vsync.vhd"
+vhdl work "C:\Users\kevin\FPGA Workspace\Xilinx\VGA\generador_imagen.vhd"
+vhdl work "C:\Users\kevin\FPGA Workspace\Xilinx\VGA\generador_hsync.vhd"
+vhdl work "C:\Users\kevin\FPGA Workspace\Xilinx\VGA\generador_blank.vhd"
+vhdl work "C:\Users\kevin\FPGA Workspace\Xilinx\VGA\contador_vertical.vhd"
+vhdl work "C:\Users\kevin\FPGA Workspace\Xilinx\VGA\contador_horizontal.vhd"

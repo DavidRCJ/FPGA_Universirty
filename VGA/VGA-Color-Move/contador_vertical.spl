@@ -1,0 +1,7 @@
+[Inputs]
+hsync
+clk50MHz
+reset
+[Outputs]
+=v_cuenta[9:0]=
+[BiDir]

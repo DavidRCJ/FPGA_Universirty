@@ -1,0 +1,492 @@
+xst -ise "D:/Digilent/BASYS/Tetris/ise_project/tetrix.ise" -intstyle ise -ifn tetrix.xst -ofn tetrix.syr
+ngdbuild -ise "D:/Digilent/BASYS/Tetris/ise_project/tetrix.ise" -intstyle ise -dd _ngo -nt timestamp -uc "tetrix.ucf" -p xc3s100e-tq144-4 "tetrix.ngc" tetrix.ngd
+map -ise "D:/Digilent/BASYS/Tetris/ise_project/tetrix.ise" -intstyle ise -p xc3s100e-tq144-4 -cm area -pr b -k 4 -c 100 -o tetrix_map.ncd tetrix.ngd tetrix.pcf
+par -ise "D:/Digilent/BASYS/Tetris/ise_project/tetrix.ise" -w -intstyle ise -ol std -t 1 tetrix_map.ncd tetrix.ncd tetrix.pcf
+trce -ise "D:/Digilent/BASYS/Tetris/ise_project/tetrix.ise" -intstyle ise -e 3 -s 4 -xml tetrix tetrix.ncd -o tetrix.twr tetrix.pcf -ucf tetrix.ucf
+bitgen -ise "D:/Digilent/BASYS/Tetris/ise_project/tetrix.ise" -intstyle ise -f tetrix.ut tetrix.ncd
+xst -ise "E:/Xilinx_book/Tetris/tetrix.ise" -intstyle ise -ifn "E:/Xilinx_book/Tetris/tetrix.xst" -ofn "E:/Xilinx_book/Tetris/tetrix.syr"
+xst -ise "C:/xilinx_book_finished/Tetris/tetrix.ise" -intstyle ise -ifn "C:/xilinx_book_finished/Tetris/tetrix.xst" -ofn "C:/xilinx_book_finished/Tetris/tetrix.syr"
+xst -ise "C:/xilinx_book_finished/Tetris/tetrix.ise" -intstyle ise -ifn "C:/xilinx_book_finished/Tetris/tetrix.xst" -ofn "C:/xilinx_book_finished/Tetris/tetrix.syr"
+xst -ise "E:/EXCD_1_test/Tetris/tetrix.ise" -intstyle ise -ifn "E:/EXCD_1_test/Tetris/tetrix.xst" -ofn "E:/EXCD_1_test/Tetris/tetrix.syr"
+ngdbuild -ise "E:/EXCD_1_test/Tetris/tetrix.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-pq208-4 "tetrix.ngc" tetrix.ngd
+map -ise "E:/EXCD_1_test/Tetris/tetrix.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o tetrix_map.ncd tetrix.ngd tetrix.pcf
+par -ise "E:/EXCD_1_test/Tetris/tetrix.ise" -w -intstyle ise -ol std -t 1 tetrix_map.ncd tetrix.ncd tetrix.pcf
+ngdbuild -ise "E:/EXCD_1_test/Tetris/tetrix.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-pq208-4 "tetrix.ngc" tetrix.ngd
+map -ise "E:/EXCD_1_test/Tetris/tetrix.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o tetrix_map.ncd tetrix.ngd tetrix.pcf
+par -ise "E:/EXCD_1_test/Tetris/tetrix.ise" -w -intstyle ise -ol std -t 1 tetrix_map.ncd tetrix.ncd tetrix.pcf
+trce -ise "E:/EXCD_1_test/Tetris/tetrix.ise" -intstyle ise -e 3 -s 4 -xml tetrix tetrix.ncd -o tetrix.twr tetrix.pcf -ucf tetrix.ucf
+bitgen -ise "E:/EXCD_1_test/Tetris/tetrix.ise" -intstyle ise -f tetrix.ut tetrix.ncd
+ngdbuild -ise "E:/EXCD_1_test/Tetris/tetrix.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-pq208-4 "tetrix.ngc" tetrix.ngd
+map -ise "E:/EXCD_1_test/Tetris/tetrix.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o tetrix_map.ncd tetrix.ngd tetrix.pcf
+par -ise "E:/EXCD_1_test/Tetris/tetrix.ise" -w -intstyle ise -ol std -t 1 tetrix_map.ncd tetrix.ncd tetrix.pcf
+trce -ise "E:/EXCD_1_test/Tetris/tetrix.ise" -intstyle ise -e 3 -s 4 -xml tetrix tetrix.ncd -o tetrix.twr tetrix.pcf -ucf tetrix.ucf
+bitgen -ise "E:/EXCD_1_test/Tetris/tetrix.ise" -intstyle ise -f tetrix.ut tetrix.ncd
+ngdbuild -ise "E:/EXCD_1_test/Tetris/tetrix.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-pq208-4 "tetrix.ngc" tetrix.ngd
+ngdbuild -ise "E:/EXCD_1_test/Tetris/tetrix.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-pq208-4 "tetrix.ngc" tetrix.ngd
+map -ise "E:/EXCD_1_test/Tetris/tetrix.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o tetrix_map.ncd tetrix.ngd tetrix.pcf
+par -ise "E:/EXCD_1_test/Tetris/tetrix.ise" -w -intstyle ise -ol std -t 1 tetrix_map.ncd tetrix.ncd tetrix.pcf
+trce -ise "E:/EXCD_1_test/Tetris/tetrix.ise" -intstyle ise -e 3 -s 4 -xml tetrix tetrix.ncd -o tetrix.twr tetrix.pcf -ucf tetrix.ucf
+bitgen -ise "E:/EXCD_1_test/Tetris/tetrix.ise" -intstyle ise -f tetrix.ut tetrix.ncd
+ngdbuild -ise "E:/EXCD_1_test/Tetris/tetrix.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-pq208-4 "tetrix.ngc" tetrix.ngd
+map -ise "E:/EXCD_1_test/Tetris/tetrix.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o tetrix_map.ncd tetrix.ngd tetrix.pcf
+par -ise "E:/EXCD_1_test/Tetris/tetrix.ise" -w -intstyle ise -ol std -t 1 tetrix_map.ncd tetrix.ncd tetrix.pcf
+trce -ise "E:/EXCD_1_test/Tetris/tetrix.ise" -intstyle ise -e 3 -s 4 -xml tetrix tetrix.ncd -o tetrix.twr tetrix.pcf -ucf tetrix.ucf
+bitgen -ise "E:/EXCD_1_test/Tetris/tetrix.ise" -intstyle ise -f tetrix.ut tetrix.ncd
+xst -ise "D:/WGL/EXCD_1_test/Tetris/tetrix.ise" -intstyle ise -ifn "D:/WGL/EXCD_1_test/Tetris/tetrix.xst" -ofn "D:/WGL/EXCD_1_test/Tetris/tetrix.syr"
+ngdbuild -ise "D:/WGL/EXCD_1_test/Tetris/tetrix.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-pq208-4 "tetrix.ngc" tetrix.ngd
+map -ise "D:/WGL/EXCD_1_test/Tetris/tetrix.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o tetrix_map.ncd tetrix.ngd tetrix.pcf
+par -ise "D:/WGL/EXCD_1_test/Tetris/tetrix.ise" -w -intstyle ise -ol std -t 1 tetrix_map.ncd tetrix.ncd tetrix.pcf
+trce -ise "D:/WGL/EXCD_1_test/Tetris/tetrix.ise" -intstyle ise -v 3 -s 4 -xml tetrix tetrix.ncd -o tetrix.twr tetrix.pcf -ucf tetrix.ucf
+bitgen -ise "D:/WGL/EXCD_1_test/Tetris/tetrix.ise" -intstyle ise -f tetrix.ut tetrix.ncd
+xst -ise "D:/WGL/EXCD_1_test/Tetris/tetrix.ise" -intstyle ise -ifn "D:/WGL/EXCD_1_test/Tetris/tetrix.xst" -ofn "D:/WGL/EXCD_1_test/Tetris/tetrix.syr"
+ngdbuild -ise "D:/WGL/EXCD_1_test/Tetris/tetrix.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-pq208-4 "tetrix.ngc" tetrix.ngd
+map -ise "D:/WGL/EXCD_1_test/Tetris/tetrix.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o tetrix_map.ncd tetrix.ngd tetrix.pcf
+par -ise "D:/WGL/EXCD_1_test/Tetris/tetrix.ise" -w -intstyle ise -ol std -t 1 tetrix_map.ncd tetrix.ncd tetrix.pcf
+trce -ise "D:/WGL/EXCD_1_test/Tetris/tetrix.ise" -intstyle ise -v 3 -s 4 -xml tetrix tetrix.ncd -o tetrix.twr tetrix.pcf -ucf tetrix.ucf
+bitgen -ise "D:/WGL/EXCD_1_test/Tetris/tetrix.ise" -intstyle ise -f tetrix.ut tetrix.ncd
+xst -ise "D:/WGL/EXCD_1_test/Tetris/tetrix.ise" -intstyle ise -ifn "D:/WGL/EXCD_1_test/Tetris/tetrix.xst" -ofn "D:/WGL/EXCD_1_test/Tetris/tetrix.syr"
+ngdbuild -ise "D:/WGL/EXCD_1_test/Tetris/tetrix.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-pq208-4 "tetrix.ngc" tetrix.ngd
+map -ise "D:/WGL/EXCD_1_test/Tetris/tetrix.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o tetrix_map.ncd tetrix.ngd tetrix.pcf
+par -ise "D:/WGL/EXCD_1_test/Tetris/tetrix.ise" -w -intstyle ise -ol std -t 1 tetrix_map.ncd tetrix.ncd tetrix.pcf
+trce -ise "D:/WGL/EXCD_1_test/Tetris/tetrix.ise" -intstyle ise -v 3 -s 4 -xml tetrix tetrix.ncd -o tetrix.twr tetrix.pcf -ucf tetrix.ucf
+bitgen -ise "D:/WGL/EXCD_1_test/Tetris/tetrix.ise" -intstyle ise -f tetrix.ut tetrix.ncd
+xst -ise "D:/WGL/EXCD_1_test/Tetris/tetrix.ise" -intstyle ise -ifn "D:/WGL/EXCD_1_test/Tetris/tetrix.xst" -ofn "D:/WGL/EXCD_1_test/Tetris/tetrix.syr"
+ngdbuild -ise "D:/WGL/EXCD_1_test/Tetris/tetrix.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-pq208-4 "tetrix.ngc" tetrix.ngd
+map -ise "D:/WGL/EXCD_1_test/Tetris/tetrix.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o tetrix_map.ncd tetrix.ngd tetrix.pcf
+par -ise "D:/WGL/EXCD_1_test/Tetris/tetrix.ise" -w -intstyle ise -ol std -t 1 tetrix_map.ncd tetrix.ncd tetrix.pcf
+trce -ise "D:/WGL/EXCD_1_test/Tetris/tetrix.ise" -intstyle ise -v 3 -s 4 -xml tetrix tetrix.ncd -o tetrix.twr tetrix.pcf -ucf tetrix.ucf
+bitgen -ise "D:/WGL/EXCD_1_test/Tetris/tetrix.ise" -intstyle ise -f tetrix.ut tetrix.ncd
+xst -ise "D:/WGL/EXCD_1_test/Tetris/tetrix.ise" -intstyle ise -ifn "D:/WGL/EXCD_1_test/Tetris/tetrix.xst" -ofn "D:/WGL/EXCD_1_test/Tetris/tetrix.syr"
+ngdbuild -ise "D:/WGL/EXCD_1_test/Tetris/tetrix.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-pq208-4 "tetrix.ngc" tetrix.ngd
+map -ise "D:/WGL/EXCD_1_test/Tetris/tetrix.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o tetrix_map.ncd tetrix.ngd tetrix.pcf
+par -ise "D:/WGL/EXCD_1_test/Tetris/tetrix.ise" -w -intstyle ise -ol std -t 1 tetrix_map.ncd tetrix.ncd tetrix.pcf
+trce -ise "D:/WGL/EXCD_1_test/Tetris/tetrix.ise" -intstyle ise -v 3 -s 4 -xml tetrix tetrix.ncd -o tetrix.twr tetrix.pcf -ucf tetrix.ucf
+bitgen -ise "D:/WGL/EXCD_1_test/Tetris/tetrix.ise" -intstyle ise -f tetrix.ut tetrix.ncd
+xst -ise "D:/WGL/EXCD_1_test/Tetris/tetrix.ise" -intstyle ise -ifn "D:/WGL/EXCD_1_test/Tetris/tetrix.xst" -ofn "D:/WGL/EXCD_1_test/Tetris/tetrix.syr"
+ngdbuild -ise "D:/WGL/EXCD_1_test/Tetris/tetrix.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-pq208-4 "tetrix.ngc" tetrix.ngd
+map -ise "D:/WGL/EXCD_1_test/Tetris/tetrix.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o tetrix_map.ncd tetrix.ngd tetrix.pcf
+par -ise "D:/WGL/EXCD_1_test/Tetris/tetrix.ise" -w -intstyle ise -ol std -t 1 tetrix_map.ncd tetrix.ncd tetrix.pcf
+trce -ise "D:/WGL/EXCD_1_test/Tetris/tetrix.ise" -intstyle ise -v 3 -s 4 -xml tetrix tetrix.ncd -o tetrix.twr tetrix.pcf -ucf tetrix.ucf
+bitgen -ise "D:/WGL/EXCD_1_test/Tetris/tetrix.ise" -intstyle ise -f tetrix.ut tetrix.ncd
+xst -ise "D:/WGL/EXCD_1_test/Tetris/tetrix.ise" -intstyle ise -ifn "D:/WGL/EXCD_1_test/Tetris/tetrix.xst" -ofn "D:/WGL/EXCD_1_test/Tetris/tetrix.syr"
+ngdbuild -ise "D:/WGL/EXCD_1_test/Tetris/tetrix.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-pq208-4 "tetrix.ngc" tetrix.ngd
+map -ise "D:/WGL/EXCD_1_test/Tetris/tetrix.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o tetrix_map.ncd tetrix.ngd tetrix.pcf
+par -ise "D:/WGL/EXCD_1_test/Tetris/tetrix.ise" -w -intstyle ise -ol std -t 1 tetrix_map.ncd tetrix.ncd tetrix.pcf
+trce -ise "D:/WGL/EXCD_1_test/Tetris/tetrix.ise" -intstyle ise -v 3 -s 4 -xml tetrix tetrix.ncd -o tetrix.twr tetrix.pcf -ucf tetrix.ucf
+bitgen -ise "D:/WGL/EXCD_1_test/Tetris/tetrix.ise" -intstyle ise -f tetrix.ut tetrix.ncd
+xst -ise "E:/isetest/ISE_lab19/tetrix.ise" -intstyle ise -ifn "E:/isetest/ISE_lab19/tetrix.xst" -ofn "E:/isetest/ISE_lab19/tetrix.syr"
+ngdbuild -ise "E:/isetest/ISE_lab19/tetrix.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-pq208-4 "tetrix.ngc" tetrix.ngd
+map -ise "E:/isetest/ISE_lab19/tetrix.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o tetrix_map.ncd tetrix.ngd tetrix.pcf
+par -ise "E:/isetest/ISE_lab19/tetrix.ise" -w -intstyle ise -ol std -t 1 tetrix_map.ncd tetrix.ncd tetrix.pcf
+trce -ise "E:/isetest/ISE_lab19/tetrix.ise" -intstyle ise -v 3 -s 4 -xml tetrix tetrix.ncd -o tetrix.twr tetrix.pcf -ucf tetrix.ucf
+bitgen -ise "E:/isetest/ISE_lab19/tetrix.ise" -intstyle ise -f tetrix.ut tetrix.ncd
+xst -ise "E:/isetest/ISE_lab19/tetrix.ise" -intstyle ise -ifn "E:/isetest/ISE_lab19/tetrix.xst" -ofn "E:/isetest/ISE_lab19/tetrix.syr"
+ngdbuild -ise "E:/isetest/ISE_lab19/tetrix.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s500e-pq208-4 "tetrix.ngc" tetrix.ngd
+map -ise "E:/isetest/ISE_lab19/tetrix.ise" -intstyle ise -p xc3s500e-pq208-4 -cm area -pr b -k 4 -c 100 -o tetrix_map.ncd tetrix.ngd tetrix.pcf
+par -ise "E:/isetest/ISE_lab19/tetrix.ise" -w -intstyle ise -ol std -t 1 tetrix_map.ncd tetrix.ncd tetrix.pcf
+trce -ise "E:/isetest/ISE_lab19/tetrix.ise" -intstyle ise -v 3 -s 4 -xml tetrix tetrix.ncd -o tetrix.twr tetrix.pcf -ucf tetrix.ucf
+bitgen -ise "E:/isetest/ISE_lab19/tetrix.ise" -intstyle ise -f tetrix.ut tetrix.ncd
+xst -intstyle ise -ifn "C:/Users/Alumnos/Downloads/TETRIS/tetis/ISE_lab19/tetrix.xst" -ofn "C:/Users/Alumnos/Downloads/TETRIS/tetis/ISE_lab19/tetrix.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tetrix.ucf -p xc3s500e-fg320-4 tetrix.ngc tetrix.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr b -c 100 -o tetrix_map.ncd tetrix.ngd tetrix.pcf 
+par -w -intstyle ise -ol high -t 1 tetrix_map.ncd tetrix.ncd tetrix.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -xml tetrix.twx tetrix.ncd -o tetrix.twr tetrix.pcf -ucf tetrix.ucf 
+bitgen -intstyle ise -f tetrix.ut tetrix.ncd 
+xst -intstyle ise -ifn "C:/Users/Alumnos/Downloads/TETRIS/tetis/ISE_lab19/tetrix.xst" -ofn "C:/Users/Alumnos/Downloads/TETRIS/tetis/ISE_lab19/tetrix.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tetrix.ucf -p xc3s500e-fg320-4 tetrix.ngc tetrix.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr b -c 100 -o tetrix_map.ncd tetrix.ngd tetrix.pcf 
+par -w -intstyle ise -ol high -t 1 tetrix_map.ncd tetrix.ncd tetrix.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -xml tetrix.twx tetrix.ncd -o tetrix.twr tetrix.pcf -ucf tetrix.ucf 
+bitgen -intstyle ise -f tetrix.ut tetrix.ncd 
+xst -intstyle ise -ifn "C:/Users/Alumnos/Downloads/TETRIS/tetis/ISE_lab19/tetrix.xst" -ofn "C:/Users/Alumnos/Downloads/TETRIS/tetis/ISE_lab19/tetrix.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tetrix.ucf -p xc3s500e-fg320-4 tetrix.ngc tetrix.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr b -c 100 -o tetrix_map.ncd tetrix.ngd tetrix.pcf 
+par -w -intstyle ise -ol high -t 1 tetrix_map.ncd tetrix.ncd tetrix.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -xml tetrix.twx tetrix.ncd -o tetrix.twr tetrix.pcf -ucf tetrix.ucf 
+bitgen -intstyle ise -f tetrix.ut tetrix.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tetrix.ucf -p xc3s500e-fg320-4 tetrix.ngc tetrix.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr b -c 100 -o tetrix_map.ncd tetrix.ngd tetrix.pcf 
+par -w -intstyle ise -ol high -t 1 tetrix_map.ncd tetrix.ncd tetrix.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -xml tetrix.twx tetrix.ncd -o tetrix.twr tetrix.pcf -ucf tetrix.ucf 
+bitgen -intstyle ise -f tetrix.ut tetrix.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tetrix.ucf -p xc3s500e-fg320-4 tetrix.ngc tetrix.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr b -c 100 -o tetrix_map.ncd tetrix.ngd tetrix.pcf 
+par -w -intstyle ise -ol high -t 1 tetrix_map.ncd tetrix.ncd tetrix.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -xml tetrix.twx tetrix.ncd -o tetrix.twr tetrix.pcf -ucf tetrix.ucf 
+bitgen -intstyle ise -f tetrix.ut tetrix.ncd 
+xst -intstyle ise -ifn "C:/Users/Alumnos/Downloads/TETRIS/tetis/ISE_lab19/tetrix.xst" -ofn "C:/Users/Alumnos/Downloads/TETRIS/tetis/ISE_lab19/tetrix.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tetrix.ucf -p xc3s500e-fg320-4 tetrix.ngc tetrix.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr b -c 100 -o tetrix_map.ncd tetrix.ngd tetrix.pcf 
+par -w -intstyle ise -ol high -t 1 tetrix_map.ncd tetrix.ncd tetrix.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -xml tetrix.twx tetrix.ncd -o tetrix.twr tetrix.pcf -ucf tetrix.ucf 
+bitgen -intstyle ise -f tetrix.ut tetrix.ncd 
+xst -intstyle ise -ifn "C:/Users/Alumnos/Downloads/TETRIS/tetis/ISE_lab19/tetrix.xst" -ofn "C:/Users/Alumnos/Downloads/TETRIS/tetis/ISE_lab19/tetrix.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tetrix.ucf -p xc3s500e-fg320-4 tetrix.ngc tetrix.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr b -c 100 -o tetrix_map.ncd tetrix.ngd tetrix.pcf 
+par -w -intstyle ise -ol high -t 1 tetrix_map.ncd tetrix.ncd tetrix.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -xml tetrix.twx tetrix.ncd -o tetrix.twr tetrix.pcf -ucf tetrix.ucf 
+bitgen -intstyle ise -f tetrix.ut tetrix.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tetrix.ucf -p xc3s500e-fg320-4 tetrix.ngc tetrix.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr b -c 100 -o tetrix_map.ncd tetrix.ngd tetrix.pcf 
+par -w -intstyle ise -ol high -t 1 tetrix_map.ncd tetrix.ncd tetrix.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -xml tetrix.twx tetrix.ncd -o tetrix.twr tetrix.pcf -ucf tetrix.ucf 
+bitgen -intstyle ise -f tetrix.ut tetrix.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tetrix.ucf -p xc3s500e-fg320-4 tetrix.ngc tetrix.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr b -c 100 -o tetrix_map.ncd tetrix.ngd tetrix.pcf 
+par -w -intstyle ise -ol high -t 1 tetrix_map.ncd tetrix.ncd tetrix.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -xml tetrix.twx tetrix.ncd -o tetrix.twr tetrix.pcf -ucf tetrix.ucf 
+bitgen -intstyle ise -f tetrix.ut tetrix.ncd 
+xst -intstyle ise -ifn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.xst" -ofn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tetrix.ucf -p xc3s500e-fg320-4 tetrix.ngc tetrix.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr b -c 100 -o tetrix_map.ncd tetrix.ngd tetrix.pcf 
+par -w -intstyle ise -ol high -t 1 tetrix_map.ncd tetrix.ncd tetrix.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -xml tetrix.twx tetrix.ncd -o tetrix.twr tetrix.pcf -ucf tetrix.ucf 
+bitgen -intstyle ise -f tetrix.ut tetrix.ncd 
+xst -intstyle ise -ifn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.xst" -ofn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tetrix.ucf -p xc3s500e-fg320-4 tetrix.ngc tetrix.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr b -c 100 -o tetrix_map.ncd tetrix.ngd tetrix.pcf 
+par -w -intstyle ise -ol high -t 1 tetrix_map.ncd tetrix.ncd tetrix.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -xml tetrix.twx tetrix.ncd -o tetrix.twr tetrix.pcf -ucf tetrix.ucf 
+bitgen -intstyle ise -f tetrix.ut tetrix.ncd 
+xst -intstyle ise -ifn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.xst" -ofn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tetrix.ucf -p xc3s500e-fg320-4 tetrix.ngc tetrix.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr b -c 100 -o tetrix_map.ncd tetrix.ngd tetrix.pcf 
+par -w -intstyle ise -ol high -t 1 tetrix_map.ncd tetrix.ncd tetrix.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -xml tetrix.twx tetrix.ncd -o tetrix.twr tetrix.pcf -ucf tetrix.ucf 
+bitgen -intstyle ise -f tetrix.ut tetrix.ncd 
+xst -intstyle ise -ifn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.xst" -ofn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tetrix.ucf -p xc3s500e-fg320-4 tetrix.ngc tetrix.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr b -c 100 -o tetrix_map.ncd tetrix.ngd tetrix.pcf 
+par -w -intstyle ise -ol high -t 1 tetrix_map.ncd tetrix.ncd tetrix.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -xml tetrix.twx tetrix.ncd -o tetrix.twr tetrix.pcf -ucf tetrix.ucf 
+bitgen -intstyle ise -f tetrix.ut tetrix.ncd 
+xst -intstyle ise -ifn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.xst" -ofn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.syr" 
+xst -intstyle ise -ifn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.xst" -ofn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tetrix.ucf -p xc3s500e-fg320-4 tetrix.ngc tetrix.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr b -c 100 -o tetrix_map.ncd tetrix.ngd tetrix.pcf 
+par -w -intstyle ise -ol high -t 1 tetrix_map.ncd tetrix.ncd tetrix.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -xml tetrix.twx tetrix.ncd -o tetrix.twr tetrix.pcf -ucf tetrix.ucf 
+bitgen -intstyle ise -f tetrix.ut tetrix.ncd 
+xst -intstyle ise -ifn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.xst" -ofn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tetrix.ucf -p xc3s500e-fg320-4 tetrix.ngc tetrix.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr b -c 100 -o tetrix_map.ncd tetrix.ngd tetrix.pcf 
+par -w -intstyle ise -ol high -t 1 tetrix_map.ncd tetrix.ncd tetrix.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -xml tetrix.twx tetrix.ncd -o tetrix.twr tetrix.pcf -ucf tetrix.ucf 
+bitgen -intstyle ise -f tetrix.ut tetrix.ncd 
+xst -intstyle ise -ifn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.xst" -ofn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tetrix.ucf -p xc3s500e-fg320-4 tetrix.ngc tetrix.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr b -c 100 -o tetrix_map.ncd tetrix.ngd tetrix.pcf 
+par -w -intstyle ise -ol high -t 1 tetrix_map.ncd tetrix.ncd tetrix.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -xml tetrix.twx tetrix.ncd -o tetrix.twr tetrix.pcf -ucf tetrix.ucf 
+bitgen -intstyle ise -f tetrix.ut tetrix.ncd 
+xst -intstyle ise -ifn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.xst" -ofn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tetrix.ucf -p xc3s500e-fg320-4 tetrix.ngc tetrix.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr b -c 100 -o tetrix_map.ncd tetrix.ngd tetrix.pcf 
+par -w -intstyle ise -ol high -t 1 tetrix_map.ncd tetrix.ncd tetrix.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -xml tetrix.twx tetrix.ncd -o tetrix.twr tetrix.pcf -ucf tetrix.ucf 
+bitgen -intstyle ise -f tetrix.ut tetrix.ncd 
+xst -intstyle ise -ifn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.xst" -ofn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tetrix.ucf -p xc3s500e-fg320-4 tetrix.ngc tetrix.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr b -c 100 -o tetrix_map.ncd tetrix.ngd tetrix.pcf 
+par -w -intstyle ise -ol high -t 1 tetrix_map.ncd tetrix.ncd tetrix.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -xml tetrix.twx tetrix.ncd -o tetrix.twr tetrix.pcf -ucf tetrix.ucf 
+bitgen -intstyle ise -f tetrix.ut tetrix.ncd 
+xst -intstyle ise -ifn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.xst" -ofn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tetrix.ucf -p xc3s500e-fg320-4 tetrix.ngc tetrix.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr b -c 100 -o tetrix_map.ncd tetrix.ngd tetrix.pcf 
+par -w -intstyle ise -ol high -t 1 tetrix_map.ncd tetrix.ncd tetrix.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -xml tetrix.twx tetrix.ncd -o tetrix.twr tetrix.pcf -ucf tetrix.ucf 
+bitgen -intstyle ise -f tetrix.ut tetrix.ncd 
+xst -intstyle ise -ifn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.xst" -ofn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tetrix.ucf -p xc3s500e-fg320-4 tetrix.ngc tetrix.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr b -c 100 -o tetrix_map.ncd tetrix.ngd tetrix.pcf 
+par -w -intstyle ise -ol high -t 1 tetrix_map.ncd tetrix.ncd tetrix.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -xml tetrix.twx tetrix.ncd -o tetrix.twr tetrix.pcf -ucf tetrix.ucf 
+bitgen -intstyle ise -f tetrix.ut tetrix.ncd 
+xst -intstyle ise -ifn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.xst" -ofn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tetrix.ucf -p xc3s500e-fg320-4 tetrix.ngc tetrix.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr b -c 100 -o tetrix_map.ncd tetrix.ngd tetrix.pcf 
+par -w -intstyle ise -ol high -t 1 tetrix_map.ncd tetrix.ncd tetrix.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -xml tetrix.twx tetrix.ncd -o tetrix.twr tetrix.pcf -ucf tetrix.ucf 
+bitgen -intstyle ise -f tetrix.ut tetrix.ncd 
+xst -intstyle ise -ifn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.xst" -ofn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tetrix.ucf -p xc3s500e-fg320-4 tetrix.ngc tetrix.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr b -c 100 -o tetrix_map.ncd tetrix.ngd tetrix.pcf 
+par -w -intstyle ise -ol high -t 1 tetrix_map.ncd tetrix.ncd tetrix.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -xml tetrix.twx tetrix.ncd -o tetrix.twr tetrix.pcf -ucf tetrix.ucf 
+bitgen -intstyle ise -f tetrix.ut tetrix.ncd 
+xst -intstyle ise -ifn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.xst" -ofn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tetrix.ucf -p xc3s500e-fg320-4 tetrix.ngc tetrix.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr b -c 100 -o tetrix_map.ncd tetrix.ngd tetrix.pcf 
+par -w -intstyle ise -ol high -t 1 tetrix_map.ncd tetrix.ncd tetrix.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -xml tetrix.twx tetrix.ncd -o tetrix.twr tetrix.pcf -ucf tetrix.ucf 
+bitgen -intstyle ise -f tetrix.ut tetrix.ncd 
+xst -intstyle ise -ifn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.xst" -ofn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tetrix.ucf -p xc3s500e-fg320-4 tetrix.ngc tetrix.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr b -c 100 -o tetrix_map.ncd tetrix.ngd tetrix.pcf 
+par -w -intstyle ise -ol high -t 1 tetrix_map.ncd tetrix.ncd tetrix.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -xml tetrix.twx tetrix.ncd -o tetrix.twr tetrix.pcf -ucf tetrix.ucf 
+bitgen -intstyle ise -f tetrix.ut tetrix.ncd 
+xst -intstyle ise -ifn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.xst" -ofn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tetrix.ucf -p xc3s500e-fg320-4 tetrix.ngc tetrix.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr b -c 100 -o tetrix_map.ncd tetrix.ngd tetrix.pcf 
+par -w -intstyle ise -ol high -t 1 tetrix_map.ncd tetrix.ncd tetrix.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -xml tetrix.twx tetrix.ncd -o tetrix.twr tetrix.pcf -ucf tetrix.ucf 
+bitgen -intstyle ise -f tetrix.ut tetrix.ncd 
+xst -intstyle ise -ifn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.xst" -ofn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tetrix.ucf -p xc3s500e-fg320-4 tetrix.ngc tetrix.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr b -c 100 -o tetrix_map.ncd tetrix.ngd tetrix.pcf 
+par -w -intstyle ise -ol high -t 1 tetrix_map.ncd tetrix.ncd tetrix.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -xml tetrix.twx tetrix.ncd -o tetrix.twr tetrix.pcf -ucf tetrix.ucf 
+bitgen -intstyle ise -f tetrix.ut tetrix.ncd 
+xst -intstyle ise -ifn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.xst" -ofn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tetrix.ucf -p xc3s500e-fg320-4 tetrix.ngc tetrix.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr b -c 100 -o tetrix_map.ncd tetrix.ngd tetrix.pcf 
+par -w -intstyle ise -ol high -t 1 tetrix_map.ncd tetrix.ncd tetrix.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -xml tetrix.twx tetrix.ncd -o tetrix.twr tetrix.pcf -ucf tetrix.ucf 
+bitgen -intstyle ise -f tetrix.ut tetrix.ncd 
+xst -intstyle ise -ifn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.xst" -ofn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tetrix.ucf -p xc3s500e-fg320-4 tetrix.ngc tetrix.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr b -c 100 -o tetrix_map.ncd tetrix.ngd tetrix.pcf 
+par -w -intstyle ise -ol high -t 1 tetrix_map.ncd tetrix.ncd tetrix.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -xml tetrix.twx tetrix.ncd -o tetrix.twr tetrix.pcf -ucf tetrix.ucf 
+bitgen -intstyle ise -f tetrix.ut tetrix.ncd 
+xst -intstyle ise -ifn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.xst" -ofn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tetrix.ucf -p xc3s500e-fg320-4 tetrix.ngc tetrix.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr b -c 100 -o tetrix_map.ncd tetrix.ngd tetrix.pcf 
+par -w -intstyle ise -ol high -t 1 tetrix_map.ncd tetrix.ncd tetrix.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -xml tetrix.twx tetrix.ncd -o tetrix.twr tetrix.pcf -ucf tetrix.ucf 
+bitgen -intstyle ise -f tetrix.ut tetrix.ncd 
+xst -intstyle ise -ifn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.xst" -ofn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tetrix.ucf -p xc3s500e-fg320-4 tetrix.ngc tetrix.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr b -c 100 -o tetrix_map.ncd tetrix.ngd tetrix.pcf 
+par -w -intstyle ise -ol high -t 1 tetrix_map.ncd tetrix.ncd tetrix.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -xml tetrix.twx tetrix.ncd -o tetrix.twr tetrix.pcf -ucf tetrix.ucf 
+bitgen -intstyle ise -f tetrix.ut tetrix.ncd 
+xst -intstyle ise -ifn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.xst" -ofn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tetrix.ucf -p xc3s500e-fg320-4 tetrix.ngc tetrix.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr b -c 100 -o tetrix_map.ncd tetrix.ngd tetrix.pcf 
+par -w -intstyle ise -ol high -t 1 tetrix_map.ncd tetrix.ncd tetrix.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -xml tetrix.twx tetrix.ncd -o tetrix.twr tetrix.pcf -ucf tetrix.ucf 
+bitgen -intstyle ise -f tetrix.ut tetrix.ncd 
+xst -intstyle ise -ifn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.xst" -ofn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tetrix.ucf -p xc3s500e-fg320-4 tetrix.ngc tetrix.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr b -c 100 -o tetrix_map.ncd tetrix.ngd tetrix.pcf 
+par -w -intstyle ise -ol high -t 1 tetrix_map.ncd tetrix.ncd tetrix.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -xml tetrix.twx tetrix.ncd -o tetrix.twr tetrix.pcf -ucf tetrix.ucf 
+bitgen -intstyle ise -f tetrix.ut tetrix.ncd 
+xst -intstyle ise -ifn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.xst" -ofn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tetrix.ucf -p xc3s500e-fg320-4 tetrix.ngc tetrix.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr b -c 100 -o tetrix_map.ncd tetrix.ngd tetrix.pcf 
+par -w -intstyle ise -ol high -t 1 tetrix_map.ncd tetrix.ncd tetrix.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -xml tetrix.twx tetrix.ncd -o tetrix.twr tetrix.pcf -ucf tetrix.ucf 
+bitgen -intstyle ise -f tetrix.ut tetrix.ncd 
+xst -intstyle ise -ifn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.xst" -ofn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tetrix.ucf -p xc3s500e-fg320-4 tetrix.ngc tetrix.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr b -c 100 -o tetrix_map.ncd tetrix.ngd tetrix.pcf 
+par -w -intstyle ise -ol high -t 1 tetrix_map.ncd tetrix.ncd tetrix.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -xml tetrix.twx tetrix.ncd -o tetrix.twr tetrix.pcf -ucf tetrix.ucf 
+bitgen -intstyle ise -f tetrix.ut tetrix.ncd 
+xst -intstyle ise -ifn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.xst" -ofn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tetrix.ucf -p xc3s500e-fg320-4 tetrix.ngc tetrix.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr b -c 100 -o tetrix_map.ncd tetrix.ngd tetrix.pcf 
+par -w -intstyle ise -ol high -t 1 tetrix_map.ncd tetrix.ncd tetrix.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -xml tetrix.twx tetrix.ncd -o tetrix.twr tetrix.pcf -ucf tetrix.ucf 
+bitgen -intstyle ise -f tetrix.ut tetrix.ncd 
+xst -intstyle ise -ifn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.xst" -ofn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tetrix.ucf -p xc3s500e-fg320-4 tetrix.ngc tetrix.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr b -c 100 -o tetrix_map.ncd tetrix.ngd tetrix.pcf 
+par -w -intstyle ise -ol high -t 1 tetrix_map.ncd tetrix.ncd tetrix.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -xml tetrix.twx tetrix.ncd -o tetrix.twr tetrix.pcf -ucf tetrix.ucf 
+bitgen -intstyle ise -f tetrix.ut tetrix.ncd 
+xst -intstyle ise -ifn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.xst" -ofn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tetrix.ucf -p xc3s500e-fg320-4 tetrix.ngc tetrix.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr b -c 100 -o tetrix_map.ncd tetrix.ngd tetrix.pcf 
+par -w -intstyle ise -ol high -t 1 tetrix_map.ncd tetrix.ncd tetrix.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -xml tetrix.twx tetrix.ncd -o tetrix.twr tetrix.pcf -ucf tetrix.ucf 
+bitgen -intstyle ise -f tetrix.ut tetrix.ncd 
+xst -intstyle ise -ifn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.xst" -ofn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tetrix.ucf -p xc3s500e-fg320-4 tetrix.ngc tetrix.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr b -c 100 -o tetrix_map.ncd tetrix.ngd tetrix.pcf 
+par -w -intstyle ise -ol high -t 1 tetrix_map.ncd tetrix.ncd tetrix.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -xml tetrix.twx tetrix.ncd -o tetrix.twr tetrix.pcf -ucf tetrix.ucf 
+bitgen -intstyle ise -f tetrix.ut tetrix.ncd 
+xst -intstyle ise -ifn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.xst" -ofn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tetrix.ucf -p xc3s500e-fg320-4 tetrix.ngc tetrix.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr b -c 100 -o tetrix_map.ncd tetrix.ngd tetrix.pcf 
+par -w -intstyle ise -ol high -t 1 tetrix_map.ncd tetrix.ncd tetrix.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -xml tetrix.twx tetrix.ncd -o tetrix.twr tetrix.pcf -ucf tetrix.ucf 
+bitgen -intstyle ise -f tetrix.ut tetrix.ncd 
+xst -intstyle ise -ifn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.xst" -ofn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tetrix.ucf -p xc3s500e-fg320-4 tetrix.ngc tetrix.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr b -c 100 -o tetrix_map.ncd tetrix.ngd tetrix.pcf 
+par -w -intstyle ise -ol high -t 1 tetrix_map.ncd tetrix.ncd tetrix.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -xml tetrix.twx tetrix.ncd -o tetrix.twr tetrix.pcf -ucf tetrix.ucf 
+bitgen -intstyle ise -f tetrix.ut tetrix.ncd 
+xst -intstyle ise -ifn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.xst" -ofn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tetrix.ucf -p xc3s500e-fg320-4 tetrix.ngc tetrix.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr b -c 100 -o tetrix_map.ncd tetrix.ngd tetrix.pcf 
+par -w -intstyle ise -ol high -t 1 tetrix_map.ncd tetrix.ncd tetrix.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -xml tetrix.twx tetrix.ncd -o tetrix.twr tetrix.pcf -ucf tetrix.ucf 
+bitgen -intstyle ise -f tetrix.ut tetrix.ncd 
+xst -intstyle ise -ifn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.xst" -ofn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tetrix.ucf -p xc3s500e-fg320-4 tetrix.ngc tetrix.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr b -c 100 -o tetrix_map.ncd tetrix.ngd tetrix.pcf 
+par -w -intstyle ise -ol high -t 1 tetrix_map.ncd tetrix.ncd tetrix.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -xml tetrix.twx tetrix.ncd -o tetrix.twr tetrix.pcf -ucf tetrix.ucf 
+bitgen -intstyle ise -f tetrix.ut tetrix.ncd 
+xst -intstyle ise -ifn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.xst" -ofn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tetrix.ucf -p xc3s500e-fg320-4 tetrix.ngc tetrix.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr b -c 100 -o tetrix_map.ncd tetrix.ngd tetrix.pcf 
+par -w -intstyle ise -ol high -t 1 tetrix_map.ncd tetrix.ncd tetrix.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -xml tetrix.twx tetrix.ncd -o tetrix.twr tetrix.pcf -ucf tetrix.ucf 
+bitgen -intstyle ise -f tetrix.ut tetrix.ncd 
+xst -intstyle ise -ifn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.xst" -ofn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tetrix.ucf -p xc3s500e-fg320-4 tetrix.ngc tetrix.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr b -c 100 -o tetrix_map.ncd tetrix.ngd tetrix.pcf 
+par -w -intstyle ise -ol high -t 1 tetrix_map.ncd tetrix.ncd tetrix.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -xml tetrix.twx tetrix.ncd -o tetrix.twr tetrix.pcf -ucf tetrix.ucf 
+bitgen -intstyle ise -f tetrix.ut tetrix.ncd 
+xst -intstyle ise -ifn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.xst" -ofn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tetrix.ucf -p xc3s500e-fg320-4 tetrix.ngc tetrix.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr b -c 100 -o tetrix_map.ncd tetrix.ngd tetrix.pcf 
+par -w -intstyle ise -ol high -t 1 tetrix_map.ncd tetrix.ncd tetrix.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -xml tetrix.twx tetrix.ncd -o tetrix.twr tetrix.pcf -ucf tetrix.ucf 
+bitgen -intstyle ise -f tetrix.ut tetrix.ncd 
+xst -intstyle ise -ifn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.xst" -ofn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tetrix.ucf -p xc3s500e-fg320-4 tetrix.ngc tetrix.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr b -c 100 -o tetrix_map.ncd tetrix.ngd tetrix.pcf 
+par -w -intstyle ise -ol high -t 1 tetrix_map.ncd tetrix.ncd tetrix.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -xml tetrix.twx tetrix.ncd -o tetrix.twr tetrix.pcf -ucf tetrix.ucf 
+bitgen -intstyle ise -f tetrix.ut tetrix.ncd 
+xst -intstyle ise -ifn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.xst" -ofn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tetrix.ucf -p xc3s500e-fg320-4 tetrix.ngc tetrix.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr b -c 100 -o tetrix_map.ncd tetrix.ngd tetrix.pcf 
+par -w -intstyle ise -ol high -t 1 tetrix_map.ncd tetrix.ncd tetrix.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -xml tetrix.twx tetrix.ncd -o tetrix.twr tetrix.pcf -ucf tetrix.ucf 
+bitgen -intstyle ise -f tetrix.ut tetrix.ncd 
+xst -intstyle ise -ifn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.xst" -ofn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tetrix.ucf -p xc3s500e-fg320-4 tetrix.ngc tetrix.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr b -c 100 -o tetrix_map.ncd tetrix.ngd tetrix.pcf 
+par -w -intstyle ise -ol high -t 1 tetrix_map.ncd tetrix.ncd tetrix.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -xml tetrix.twx tetrix.ncd -o tetrix.twr tetrix.pcf -ucf tetrix.ucf 
+bitgen -intstyle ise -f tetrix.ut tetrix.ncd 
+xst -intstyle ise -ifn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.xst" -ofn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tetrix.ucf -p xc3s500e-fg320-4 tetrix.ngc tetrix.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr b -c 100 -o tetrix_map.ncd tetrix.ngd tetrix.pcf 
+par -w -intstyle ise -ol high -t 1 tetrix_map.ncd tetrix.ncd tetrix.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -xml tetrix.twx tetrix.ncd -o tetrix.twr tetrix.pcf -ucf tetrix.ucf 
+bitgen -intstyle ise -f tetrix.ut tetrix.ncd 
+xst -intstyle ise -ifn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.xst" -ofn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tetrix.ucf -p xc3s500e-fg320-4 tetrix.ngc tetrix.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr b -c 100 -o tetrix_map.ncd tetrix.ngd tetrix.pcf 
+par -w -intstyle ise -ol high -t 1 tetrix_map.ncd tetrix.ncd tetrix.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -xml tetrix.twx tetrix.ncd -o tetrix.twr tetrix.pcf -ucf tetrix.ucf 
+bitgen -intstyle ise -f tetrix.ut tetrix.ncd 
+xst -intstyle ise -ifn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.xst" -ofn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tetrix.ucf -p xc3s500e-fg320-4 tetrix.ngc tetrix.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr b -c 100 -o tetrix_map.ncd tetrix.ngd tetrix.pcf 
+par -w -intstyle ise -ol high -t 1 tetrix_map.ncd tetrix.ncd tetrix.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -xml tetrix.twx tetrix.ncd -o tetrix.twr tetrix.pcf -ucf tetrix.ucf 
+bitgen -intstyle ise -f tetrix.ut tetrix.ncd 
+xst -intstyle ise -ifn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.xst" -ofn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tetrix.ucf -p xc3s500e-fg320-4 tetrix.ngc tetrix.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr b -c 100 -o tetrix_map.ncd tetrix.ngd tetrix.pcf 
+par -w -intstyle ise -ol high -t 1 tetrix_map.ncd tetrix.ncd tetrix.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -xml tetrix.twx tetrix.ncd -o tetrix.twr tetrix.pcf -ucf tetrix.ucf 
+bitgen -intstyle ise -f tetrix.ut tetrix.ncd 
+xst -intstyle ise -ifn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.xst" -ofn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tetrix.ucf -p xc3s500e-fg320-4 tetrix.ngc tetrix.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr b -c 100 -o tetrix_map.ncd tetrix.ngd tetrix.pcf 
+par -w -intstyle ise -ol high -t 1 tetrix_map.ncd tetrix.ncd tetrix.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -xml tetrix.twx tetrix.ncd -o tetrix.twr tetrix.pcf -ucf tetrix.ucf 
+bitgen -intstyle ise -f tetrix.ut tetrix.ncd 
+xst -intstyle ise -ifn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.xst" -ofn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tetrix.ucf -p xc3s500e-fg320-4 tetrix.ngc tetrix.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr b -c 100 -o tetrix_map.ncd tetrix.ngd tetrix.pcf 
+par -w -intstyle ise -ol high -t 1 tetrix_map.ncd tetrix.ncd tetrix.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -xml tetrix.twx tetrix.ncd -o tetrix.twr tetrix.pcf -ucf tetrix.ucf 
+bitgen -intstyle ise -f tetrix.ut tetrix.ncd 
+xst -intstyle ise -ifn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.xst" -ofn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tetrix.ucf -p xc3s500e-fg320-4 tetrix.ngc tetrix.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr b -c 100 -o tetrix_map.ncd tetrix.ngd tetrix.pcf 
+par -w -intstyle ise -ol high -t 1 tetrix_map.ncd tetrix.ncd tetrix.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -xml tetrix.twx tetrix.ncd -o tetrix.twr tetrix.pcf -ucf tetrix.ucf 
+bitgen -intstyle ise -f tetrix.ut tetrix.ncd 
+xst -intstyle ise -ifn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.xst" -ofn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tetrix.ucf -p xc3s500e-fg320-4 tetrix.ngc tetrix.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr b -c 100 -o tetrix_map.ncd tetrix.ngd tetrix.pcf 
+par -w -intstyle ise -ol high -t 1 tetrix_map.ncd tetrix.ncd tetrix.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -xml tetrix.twx tetrix.ncd -o tetrix.twr tetrix.pcf -ucf tetrix.ucf 
+bitgen -intstyle ise -f tetrix.ut tetrix.ncd 
+xst -intstyle ise -ifn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.xst" -ofn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tetrix.ucf -p xc3s500e-fg320-4 tetrix.ngc tetrix.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr b -c 100 -o tetrix_map.ncd tetrix.ngd tetrix.pcf 
+par -w -intstyle ise -ol high -t 1 tetrix_map.ncd tetrix.ncd tetrix.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -xml tetrix.twx tetrix.ncd -o tetrix.twr tetrix.pcf -ucf tetrix.ucf 
+bitgen -intstyle ise -f tetrix.ut tetrix.ncd 
+xst -intstyle ise -ifn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.xst" -ofn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tetrix.ucf -p xc3s500e-fg320-4 tetrix.ngc tetrix.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr b -c 100 -o tetrix_map.ncd tetrix.ngd tetrix.pcf 
+par -w -intstyle ise -ol high -t 1 tetrix_map.ncd tetrix.ncd tetrix.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -xml tetrix.twx tetrix.ncd -o tetrix.twr tetrix.pcf -ucf tetrix.ucf 
+bitgen -intstyle ise -f tetrix.ut tetrix.ncd 
+xst -intstyle ise -ifn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.xst" -ofn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tetrix.ucf -p xc3s500e-fg320-4 tetrix.ngc tetrix.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr b -c 100 -o tetrix_map.ncd tetrix.ngd tetrix.pcf 
+par -w -intstyle ise -ol high -t 1 tetrix_map.ncd tetrix.ncd tetrix.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -xml tetrix.twx tetrix.ncd -o tetrix.twr tetrix.pcf -ucf tetrix.ucf 
+bitgen -intstyle ise -f tetrix.ut tetrix.ncd 
+xst -intstyle ise -ifn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.xst" -ofn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tetrix.ucf -p xc3s500e-fg320-4 tetrix.ngc tetrix.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr b -c 100 -o tetrix_map.ncd tetrix.ngd tetrix.pcf 
+par -w -intstyle ise -ol high -t 1 tetrix_map.ncd tetrix.ncd tetrix.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -xml tetrix.twx tetrix.ncd -o tetrix.twr tetrix.pcf -ucf tetrix.ucf 
+bitgen -intstyle ise -f tetrix.ut tetrix.ncd 
+xst -intstyle ise -ifn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.xst" -ofn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tetrix.ucf -p xc3s500e-fg320-4 tetrix.ngc tetrix.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr b -c 100 -o tetrix_map.ncd tetrix.ngd tetrix.pcf 
+par -w -intstyle ise -ol high -t 1 tetrix_map.ncd tetrix.ncd tetrix.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -xml tetrix.twx tetrix.ncd -o tetrix.twr tetrix.pcf -ucf tetrix.ucf 
+bitgen -intstyle ise -f tetrix.ut tetrix.ncd 
+xst -intstyle ise -ifn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.xst" -ofn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tetrix.ucf -p xc3s500e-fg320-4 tetrix.ngc tetrix.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr b -c 100 -o tetrix_map.ncd tetrix.ngd tetrix.pcf 
+par -w -intstyle ise -ol high -t 1 tetrix_map.ncd tetrix.ncd tetrix.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -xml tetrix.twx tetrix.ncd -o tetrix.twr tetrix.pcf -ucf tetrix.ucf 
+bitgen -intstyle ise -f tetrix.ut tetrix.ncd 
+xst -intstyle ise -ifn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.xst" -ofn "C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tetrix.ucf -p xc3s500e-fg320-4 tetrix.ngc tetrix.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr b -c 100 -o tetrix_map.ncd tetrix.ngd tetrix.pcf 
+par -w -intstyle ise -ol high -t 1 tetrix_map.ncd tetrix.ncd tetrix.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -xml tetrix.twx tetrix.ncd -o tetrix.twr tetrix.pcf -ucf tetrix.ucf 
+bitgen -intstyle ise -f tetrix.ut tetrix.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/VGA/Tetrix_Proyecto_Final/Tetris/tetrix.xst" -ofn "C:/Users/David/Desktop/VGA/Tetrix_Proyecto_Final/Tetris/tetrix.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tetrix.ucf -p xc3s1200e-fg320-4 tetrix.ngc tetrix.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr b -c 100 -o tetrix_map.ncd tetrix.ngd tetrix.pcf 
+par -w -intstyle ise -ol high -t 1 tetrix_map.ncd tetrix.ncd tetrix.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -xml tetrix.twx tetrix.ncd -o tetrix.twr tetrix.pcf -ucf tetrix.ucf 
+bitgen -intstyle ise -f tetrix.ut tetrix.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/VGA/Tetrix_Proyecto_Final/Tetris/tetrix.xst" -ofn "C:/Users/David/Desktop/VGA/Tetrix_Proyecto_Final/Tetris/tetrix.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tetrix.ucf -p xc3s500e-fg320-4 tetrix.ngc tetrix.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr b -c 100 -o tetrix_map.ncd tetrix.ngd tetrix.pcf 
+par -w -intstyle ise -ol high -t 1 tetrix_map.ncd tetrix.ncd tetrix.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -xml tetrix.twx tetrix.ncd -o tetrix.twr tetrix.pcf -ucf tetrix.ucf 
+bitgen -intstyle ise -f tetrix.ut tetrix.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/VGA/Tetrix_Proyecto_Final/Tetris/tetrix.xst" -ofn "C:/Users/David/Desktop/VGA/Tetrix_Proyecto_Final/Tetris/tetrix.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tetrix.ucf -p xc3s500e-fg320-4 tetrix.ngc tetrix.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr b -c 100 -o tetrix_map.ncd tetrix.ngd tetrix.pcf 
+par -w -intstyle ise -ol high -t 1 tetrix_map.ncd tetrix.ncd tetrix.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -xml tetrix.twx tetrix.ncd -o tetrix.twr tetrix.pcf -ucf tetrix.ucf 
+bitgen -intstyle ise -f tetrix.ut tetrix.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/VGA/Tetrix_Proyecto_Final/Tetris/tetrix.xst" -ofn "C:/Users/David/Desktop/VGA/Tetrix_Proyecto_Final/Tetris/tetrix.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tetrix.ucf -p xc3s1200e-fg320-4 tetrix.ngc tetrix.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr b -c 100 -o tetrix_map.ncd tetrix.ngd tetrix.pcf 
+par -w -intstyle ise -ol high -t 1 tetrix_map.ncd tetrix.ncd tetrix.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -xml tetrix.twx tetrix.ncd -o tetrix.twr tetrix.pcf -ucf tetrix.ucf 
+bitgen -intstyle ise -f tetrix.ut tetrix.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc tetrix.ucf -uc Nexys2_1200General.ucf -p xc3s1200e-fg320-4 tetrix.ngc tetrix.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr b -c 100 -o tetrix_map.ncd tetrix.ngd tetrix.pcf 
+par -w -intstyle ise -ol high -t 1 tetrix_map.ncd tetrix.ncd tetrix.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -xml tetrix.twx tetrix.ncd -o tetrix.twr tetrix.pcf -ucf tetrix.ucf -ucf Nexys2_1200General.ucf 
+bitgen -intstyle ise -f tetrix.ut tetrix.ncd 

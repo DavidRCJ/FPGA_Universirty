@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\kevin\FPGA Workspace\Xilinx\Tetris\tetrix.ncd
+OUTFILE=C:\Users\kevin\FPGA Workspace\Xilinx\Tetris\tetrix.bit
+FAMILY=Spartan3E
+PART=xc3s500e-5fg320
+WORKINGDIR=C:\Users\kevin\FPGA Workspace\Xilinx\Tetris
+LICENSE=WebPack
+USER_INFO=211520673_0_0_647

@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "C:/Users/kevin/FPGA Workspace/Xilinx/VGA/generador_hsync.xst" -ofn "C:/Users/kevin/FPGA Workspace/Xilinx/VGA/generador_hsync.syr" 
+vhdtdtfi -lib work generador_hsync.vhd -prj VGA -o generador_hsync.spl -module generador_hsync -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e generador_hsync.spl {C:/Users/kevin/FPGA Workspace/Xilinx/VGA/generador_hsync.sym} 

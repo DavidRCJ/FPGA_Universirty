@@ -1,0 +1,7 @@
+[Inputs]
+clk50MHz
+reset
+=h_cuenta[10:0]=
+[Outputs]
+hsync
+[BiDir]

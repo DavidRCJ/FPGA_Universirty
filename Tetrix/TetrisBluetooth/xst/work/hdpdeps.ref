@@ -1,0 +1,91 @@
+V3 60
+FL C:/Users/Cars/Desktop/TetrisBluetooth/counter.vhd 2019/06/29.22:49:26 P.20131013
+EN work/counters 1561952406 FL C:/Users/Cars/Desktop/TetrisBluetooth/counter.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/counters/Behavioral 1561952407 \
+      FL C:/Users/Cars/Desktop/TetrisBluetooth/counter.vhd EN work/counters 1561952406
+FL C:/Users/Cars/Desktop/TetrisBluetooth/game_control.vhd 2019/06/30.00:10:06 P.20131013
+EN work/gamecontrol 1561952418 \
+      FL C:/Users/Cars/Desktop/TetrisBluetooth/game_control.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/gamecontrol/Behavioral 1561952419 \
+      FL C:/Users/Cars/Desktop/TetrisBluetooth/game_control.vhd \
+      EN work/gamecontrol 1561952418
+FL C:/Users/Cars/Desktop/TetrisBluetooth/score_control.vhd 2019/06/29.22:36:52 P.20131013
+EN work/score 1561952416 \
+      FL C:/Users/Cars/Desktop/TetrisBluetooth/score_control.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/score/Behavioral 1561952417 \
+      FL C:/Users/Cars/Desktop/TetrisBluetooth/score_control.vhd EN work/score 1561952416
+FL C:/Users/Cars/Desktop/TetrisBluetooth/tetris.vhd 2019/06/30.00:00:58 P.20131013
+EN work/tetris 1561952420 FL C:/Users/Cars/Desktop/TetrisBluetooth/tetris.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/tetris/Behavioral 1561952421 \
+      FL C:/Users/Cars/Desktop/TetrisBluetooth/tetris.vhd EN work/tetris 1561952420 \
+      CP vga CP uart_rx CP display CP text_display CP score CP gamecontrol \
+      CP RAMB4_S4_S4 CP RAMB4_S8_S8
+FL C:/Users/Cars/Desktop/TetrisBluetooth/tetris_display.vhd 2019/06/29.22:46:26 P.20131013
+EN work/display 1561952412 \
+      FL C:/Users/Cars/Desktop/TetrisBluetooth/tetris_display.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/display/Behavioral 1561952413 \
+      FL C:/Users/Cars/Desktop/TetrisBluetooth/tetris_display.vhd EN work/display 1561952412
+FL C:/Users/Cars/Desktop/TetrisBluetooth/text_display.vhd 2019/06/29.22:32:34 P.20131013
+EN work/text_display 1561952414 \
+      FL C:/Users/Cars/Desktop/TetrisBluetooth/text_display.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179 LB UNISIM PH unisim/VCOMPONENTS 1381692182
+AR work/text_display/Behavioral 1561952415 \
+      FL C:/Users/Cars/Desktop/TetrisBluetooth/text_display.vhd \
+      EN work/text_display 1561952414 CP counters CP RAMB4_S8
+FL C:/Users/Cars/Desktop/TetrisBluetooth/uart_rx.vhd 2019/06/30.22:39:59 P.20131013
+EN work/UART_RX 1561952410 FL C:/Users/Cars/Desktop/TetrisBluetooth/uart_rx.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/UART_RX/rtl 1561952411 \
+      FL C:/Users/Cars/Desktop/TetrisBluetooth/uart_rx.vhd EN work/UART_RX 1561952410
+FL C:/Users/Cars/Desktop/TetrisBluetooth/vga.vhd 2019/06/29.19:17:40 P.20131013
+EN work/vga 1561952408 FL C:/Users/Cars/Desktop/TetrisBluetooth/vga.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/vga/Behavioral 1561952409 \
+      FL C:/Users/Cars/Desktop/TetrisBluetooth/vga.vhd EN work/vga 1561952408
+FL "C:/Users/kevin/FPGA Workspace/Xilinx/Tetris/counter.vhd" 2019/06/29.22:49:25 P.20131013
+FL "C:/Users/kevin/FPGA Workspace/Xilinx/Tetris/debounce.vhd" 2019/06/29.22:28:47 P.20131013
+EN work/kbfilter 1561866632 \
+      FL "C:/Users/kevin/FPGA Workspace/Xilinx/Tetris/debounce.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/kbfilter/Behavioral 1561866633 \
+      FL "C:/Users/kevin/FPGA Workspace/Xilinx/Tetris/debounce.vhd" \
+      EN work/kbfilter 1561866632
+FL "C:/Users/kevin/FPGA Workspace/Xilinx/Tetris/game_control.vhd" 2019/06/29.22:39:14 P.20131013
+FL "C:/Users/kevin/FPGA Workspace/Xilinx/Tetris/keyboard.vhd" 2019/06/29.19:19:32 P.20131013
+EN work/keyboardVhdl 1561866630 \
+      FL "C:/Users/kevin/FPGA Workspace/Xilinx/Tetris/keyboard.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/keyboardVhdl/Behavioral 1561866631 \
+      FL "C:/Users/kevin/FPGA Workspace/Xilinx/Tetris/keyboard.vhd" \
+      EN work/keyboardVhdl 1561866630
+FL "C:/Users/kevin/FPGA Workspace/Xilinx/Tetris/score_control.vhd" 2019/06/29.22:36:50 P.20131013
+FL "C:/Users/kevin/FPGA Workspace/Xilinx/Tetris/tetris.vhd" 2019/06/29.22:50:22 P.20131013
+AR work/tetrix/Behavioral 1561866435 \
+      FL "C:/Users/kevin/FPGA Workspace/Xilinx/Tetris/tetris.vhd" EN work/tetrix 1561866434 \
+      CP vga CP keyboardVhdl CP kbfilter CP display CP text_display CP score \
+      CP gamecontrol CP RAMB4_S4_S4 CP RAMB4_S8_S8
+FL "C:/Users/kevin/FPGA Workspace/Xilinx/Tetris/tetris_display.vhd" 2019/06/29.22:46:25 P.20131013
+FL "C:/Users/kevin/FPGA Workspace/Xilinx/Tetris/text_display.vhd" 2019/06/29.22:32:32 P.20131013
+FL "C:/Users/kevin/FPGA Workspace/Xilinx/Tetris/vga.vhd" 2019/06/29.19:17:38 P.20131013
+FL "C:/Users/kevin/FPGA Workspace/Xilinx/TetrisBluetooth/counter.vhd" 2019/06/29.22:49:25 P.20131013
+FL "C:/Users/kevin/FPGA Workspace/Xilinx/TetrisBluetooth/game_control.vhd" 2019/06/30.00:10:04 P.20131013
+FL "C:/Users/kevin/FPGA Workspace/Xilinx/TetrisBluetooth/score_control.vhd" 2019/06/29.22:36:50 P.20131013
+FL "C:/Users/kevin/FPGA Workspace/Xilinx/TetrisBluetooth/tetris.vhd" 2019/06/30.00:00:56 P.20131013
+FL "C:/Users/kevin/FPGA Workspace/Xilinx/TetrisBluetooth/tetris_display.vhd" 2019/06/29.22:46:25 P.20131013
+FL "C:/Users/kevin/FPGA Workspace/Xilinx/TetrisBluetooth/text_display.vhd" 2019/06/29.22:32:32 P.20131013
+FL "C:/Users/kevin/FPGA Workspace/Xilinx/TetrisBluetooth/uart_rx.vhd" 2019/06/30.00:13:28 P.20131013
+FL "C:/Users/kevin/FPGA Workspace/Xilinx/TetrisBluetooth/vga.vhd" 2019/06/29.19:17:38 P.20131013

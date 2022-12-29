@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "C:/Users/kevin/FPGA Workspace/Xilinx/VGA/generador_imagen.xst" -ofn "C:/Users/kevin/FPGA Workspace/Xilinx/VGA/generador_imagen.syr" 
+vhdtdtfi -lib work generador_imagen.vhd -prj VGA -o generador_imagen.spl -module generador_imagen -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e generador_imagen.spl {C:/Users/kevin/FPGA Workspace/Xilinx/VGA/generador_imagen.sym} 

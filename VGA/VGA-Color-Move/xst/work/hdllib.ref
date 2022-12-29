@@ -1,0 +1,14 @@
+EN generador_blank NULL "C:/Users/kevin/FPGA Workspace/Xilinx/VGA/generador_blank.vhd" sub00/vhpl08 1559692844
+AR generador_blank behavioral "C:/Users/kevin/FPGA Workspace/Xilinx/VGA/generador_blank.vhd" sub00/vhpl09 1559692845
+EN generador_hsync NULL "C:/Users/kevin/FPGA Workspace/Xilinx/VGA/generador_hsync.vhd" sub00/vhpl04 1559692846
+AR contador_horizontal comportamiento "C:/Users/kevin/FPGA Workspace/Xilinx/VGA/contador_horizontal.vhd" sub00/vhpl01 1559692841
+EN contador_vertical NULL "C:/Users/kevin/FPGA Workspace/Xilinx/VGA/contador_vertical.vhd" sub00/vhpl02 1559692842
+AR contador_vertical comportamiento "C:/Users/kevin/FPGA Workspace/Xilinx/VGA/contador_vertical.vhd" sub00/vhpl03 1559692843
+AR generador_imagen comportamiento "C:/Users/kevin/FPGA Workspace/Xilinx/VGA/generador_imagen.vhd" sub00/vhpl11 1559692849
+EN generador_vsync NULL "C:/Users/kevin/FPGA Workspace/Xilinx/VGA/generador_vsync.vhd" sub00/vhpl06 1559692850
+AR generador_hsync comportamiento "C:/Users/kevin/FPGA Workspace/Xilinx/VGA/generador_hsync.vhd" sub00/vhpl05 1559692847
+EN generador_imagen NULL "C:/Users/kevin/FPGA Workspace/Xilinx/VGA/generador_imagen.vhd" sub00/vhpl10 1559692848
+EN contador_horizontal NULL "C:/Users/kevin/FPGA Workspace/Xilinx/VGA/contador_horizontal.vhd" sub00/vhpl00 1559692840
+MO Prueba_VGA NULL Prueba_VGA.vf vlg68/_prueba___v_g_a.bin 1559692840
+AR generador_vsync comportamiento "C:/Users/kevin/FPGA Workspace/Xilinx/VGA/generador_vsync.vhd" sub00/vhpl07 1559692851
+MO DCM NULL DCM.v vlg40/_d_c_m.bin 1559692840

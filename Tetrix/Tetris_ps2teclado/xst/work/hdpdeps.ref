@@ -1,0 +1,92 @@
+V3 57
+FL C:/Users/Alumnos/Downloads/TETRIS/tetis/ISE_lab19/counters.vhd 2010/03/28.04:44:38 P.20131013
+FL C:/Users/Alumnos/Downloads/TETRIS/tetis/ISE_lab19/display.vhd 2010/03/28.04:44:40 P.20131013
+FL C:/Users/Alumnos/Downloads/TETRIS/tetis/ISE_lab19/gamecontrol.vhd 2019/06/21.22:41:33 P.20131013
+FL C:/Users/Alumnos/Downloads/TETRIS/tetis/ISE_lab19/kb2vhdl.vhd 2010/03/28.04:44:40 P.20131013
+FL C:/Users/Alumnos/Downloads/TETRIS/tetis/ISE_lab19/kbfilter.vhd 2010/03/28.04:44:40 P.20131013
+FL C:/Users/Alumnos/Downloads/TETRIS/tetis/ISE_lab19/score.vhd 2010/03/28.04:44:52 P.20131013
+FL C:/Users/Alumnos/Downloads/TETRIS/tetis/ISE_lab19/tetrix.vhd 2010/03/28.04:44:40 P.20131013
+FL C:/Users/Alumnos/Downloads/TETRIS/tetis/ISE_lab19/text_display.vhd 2010/03/28.04:44:40 P.20131013
+FL C:/Users/Alumnos/Downloads/TETRIS/tetis/ISE_lab19/vga.vhd 2010/03/28.04:51:20 P.20131013
+FL C:/Users/Cars/Desktop/tetis/ISE_lab19/counters.vhd 2010/03/28.04:44:38 P.20131013
+FL C:/Users/Cars/Desktop/tetis/ISE_lab19/display.vhd 2010/03/28.04:44:40 P.20131013
+FL C:/Users/Cars/Desktop/tetis/ISE_lab19/gamecontrol.vhd 2019/06/26.01:52:22 P.20131013
+FL C:/Users/Cars/Desktop/tetis/ISE_lab19/kb2vhdl.vhd 2010/03/28.04:44:40 P.20131013
+FL C:/Users/Cars/Desktop/tetis/ISE_lab19/kbfilter.vhd 2010/03/28.04:44:40 P.20131013
+FL C:/Users/Cars/Desktop/tetis/ISE_lab19/score.vhd 2010/03/28.04:44:52 P.20131013
+FL C:/Users/Cars/Desktop/tetis/ISE_lab19/tetrix.vhd 2019/06/25.12:32:27 P.20131013
+FL C:/Users/Cars/Desktop/tetis/ISE_lab19/text_display.vhd 2010/03/28.04:44:40 P.20131013
+FL C:/Users/Cars/Desktop/tetis/ISE_lab19/vga.vhd 2010/03/28.04:51:20 P.20131013
+FL C:/Users/David/Desktop/VGA/Tetrix_Proyecto_Final/Tetris/counters.vhd 2010/03/28.04:44:38 P.20131013
+EN work/counters 1561833476 \
+      FL C:/Users/David/Desktop/VGA/Tetrix_Proyecto_Final/Tetris/counters.vhd \
+      PB ieee/std_logic_1164 1370735607 PB ieee/std_logic_arith 1370735608 \
+      PB ieee/STD_LOGIC_UNSIGNED 1370735609
+AR work/counters/Behavioral 1561833477 \
+      FL C:/Users/David/Desktop/VGA/Tetrix_Proyecto_Final/Tetris/counters.vhd \
+      EN work/counters 1561833476
+FL C:/Users/David/Desktop/VGA/Tetrix_Proyecto_Final/Tetris/display.vhd 2010/03/28.04:44:40 P.20131013
+EN work/display 1561833484 \
+      FL C:/Users/David/Desktop/VGA/Tetrix_Proyecto_Final/Tetris/display.vhd \
+      PB ieee/std_logic_1164 1370735607 PB ieee/std_logic_arith 1370735608 \
+      PB ieee/STD_LOGIC_UNSIGNED 1370735609
+AR work/display/Behavioral 1561833485 \
+      FL C:/Users/David/Desktop/VGA/Tetrix_Proyecto_Final/Tetris/display.vhd \
+      EN work/display 1561833484
+FL C:/Users/David/Desktop/VGA/Tetrix_Proyecto_Final/Tetris/gamecontrol.vhd 2019/06/26.01:52:22 P.20131013
+EN work/gamecontrol 1561833490 \
+      FL C:/Users/David/Desktop/VGA/Tetrix_Proyecto_Final/Tetris/gamecontrol.vhd \
+      PB ieee/std_logic_1164 1370735607 PB ieee/std_logic_arith 1370735608 \
+      PB ieee/STD_LOGIC_UNSIGNED 1370735609
+AR work/gamecontrol/Behavioral 1561833491 \
+      FL C:/Users/David/Desktop/VGA/Tetrix_Proyecto_Final/Tetris/gamecontrol.vhd \
+      EN work/gamecontrol 1561833490
+FL C:/Users/David/Desktop/VGA/Tetrix_Proyecto_Final/Tetris/kb2vhdl.vhd 2010/03/28.04:44:40 P.20131013
+EN work/keyboardVhdl 1561833480 \
+      FL C:/Users/David/Desktop/VGA/Tetrix_Proyecto_Final/Tetris/kb2vhdl.vhd \
+      PB ieee/std_logic_1164 1370735607 PB ieee/std_logic_arith 1370735608 \
+      PB ieee/STD_LOGIC_UNSIGNED 1370735609
+AR work/keyboardVhdl/Behavioral 1561833481 \
+      FL C:/Users/David/Desktop/VGA/Tetrix_Proyecto_Final/Tetris/kb2vhdl.vhd \
+      EN work/keyboardVhdl 1561833480
+FL C:/Users/David/Desktop/VGA/Tetrix_Proyecto_Final/Tetris/kbfilter.vhd 2010/03/28.04:44:40 P.20131013
+EN work/kbfilter 1561833482 \
+      FL C:/Users/David/Desktop/VGA/Tetrix_Proyecto_Final/Tetris/kbfilter.vhd \
+      PB ieee/std_logic_1164 1370735607 PB ieee/std_logic_arith 1370735608 \
+      PB ieee/STD_LOGIC_UNSIGNED 1370735609
+AR work/kbfilter/Behavioral 1561833483 \
+      FL C:/Users/David/Desktop/VGA/Tetrix_Proyecto_Final/Tetris/kbfilter.vhd \
+      EN work/kbfilter 1561833482
+FL C:/Users/David/Desktop/VGA/Tetrix_Proyecto_Final/Tetris/score.vhd 2010/03/28.04:44:52 P.20131013
+EN work/score 1561833488 \
+      FL C:/Users/David/Desktop/VGA/Tetrix_Proyecto_Final/Tetris/score.vhd \
+      PB ieee/std_logic_1164 1370735607 PB ieee/std_logic_arith 1370735608 \
+      PB ieee/STD_LOGIC_UNSIGNED 1370735609
+AR work/score/Behavioral 1561833489 \
+      FL C:/Users/David/Desktop/VGA/Tetrix_Proyecto_Final/Tetris/score.vhd \
+      EN work/score 1561833488
+FL C:/Users/David/Desktop/VGA/Tetrix_Proyecto_Final/Tetris/tetrix.vhd 2019/06/25.12:32:27 P.20131013
+EN work/tetrix 1561833492 \
+      FL C:/Users/David/Desktop/VGA/Tetrix_Proyecto_Final/Tetris/tetrix.vhd \
+      PB ieee/std_logic_1164 1370735607 PB ieee/std_logic_arith 1370735608 \
+      PB ieee/STD_LOGIC_UNSIGNED 1370735609 LB UNISIM PH unisim/VCOMPONENTS 1370735613
+AR work/tetrix/Behavioral 1561833493 \
+      FL C:/Users/David/Desktop/VGA/Tetrix_Proyecto_Final/Tetris/tetrix.vhd \
+      EN work/tetrix 1561833492 CP vga CP keyboardVhdl CP kbfilter CP display \
+      CP text_display CP score CP gamecontrol CP RAMB4_S4_S4 CP RAMB4_S8_S8
+FL C:/Users/David/Desktop/VGA/Tetrix_Proyecto_Final/Tetris/text_display.vhd 2010/03/28.04:44:40 P.20131013
+EN work/text_display 1561833486 \
+      FL C:/Users/David/Desktop/VGA/Tetrix_Proyecto_Final/Tetris/text_display.vhd \
+      PB ieee/std_logic_1164 1370735607 PB ieee/std_logic_arith 1370735608 \
+      PB ieee/STD_LOGIC_UNSIGNED 1370735609 LB UNISIM PH unisim/VCOMPONENTS 1370735613
+AR work/text_display/Behavioral 1561833487 \
+      FL C:/Users/David/Desktop/VGA/Tetrix_Proyecto_Final/Tetris/text_display.vhd \
+      EN work/text_display 1561833486 CP counters CP RAMB4_S8
+FL C:/Users/David/Desktop/VGA/Tetrix_Proyecto_Final/Tetris/vga.vhd 2010/03/28.04:51:20 P.20131013
+EN work/vga 1561833478 \
+      FL C:/Users/David/Desktop/VGA/Tetrix_Proyecto_Final/Tetris/vga.vhd \
+      PB ieee/std_logic_1164 1370735607 PB ieee/std_logic_arith 1370735608 \
+      PB ieee/STD_LOGIC_UNSIGNED 1370735609
+AR work/vga/Behavioral 1561833479 \
+      FL C:/Users/David/Desktop/VGA/Tetrix_Proyecto_Final/Tetris/vga.vhd \
+      EN work/vga 1561833478

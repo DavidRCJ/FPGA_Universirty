@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "C:/Users/kevin/FPGA Workspace/Xilinx/VGA/Prueba_VGA.xst" -ofn "C:/Users/kevin/FPGA Workspace/Xilinx/VGA/Prueba_VGA.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys2_500General.ucf -p xc3s500e-fg320-4 "Prueba_VGA.ngc" Prueba_VGA.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Prueba_VGA_map.ncd Prueba_VGA.ngd Prueba_VGA.pcf 
+par -w -intstyle ise -ol high -t 1 Prueba_VGA_map.ncd Prueba_VGA.ncd Prueba_VGA.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Prueba_VGA.twx Prueba_VGA.ncd -o Prueba_VGA.twr Prueba_VGA.pcf -ucf Nexys2_500General.ucf 
+bitgen -intstyle ise -f Prueba_VGA.ut Prueba_VGA.ncd 
+bitgen -intstyle ise -f Prueba_VGA.ut Prueba_VGA.ncd 

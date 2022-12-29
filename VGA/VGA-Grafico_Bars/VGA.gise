@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="VGA.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="DCM.spl"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="DCM.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VERILOG" xil_pn:name="DCM.v"/>
+    <file xil_pn:fileType="FILE_UCF" xil_pn:name="DCM_arwz.ucf" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="Prueba_VGA.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="Prueba_VGA.cmd_log"/>
+    <file xil_pn:fileType="FILE_JHD" xil_pn:name="Prueba_VGA.jhd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="Prueba_VGA.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="Prueba_VGA.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="Prueba_VGA.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="Prueba_VGA.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="Prueba_VGA.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="Prueba_VGA.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="Prueba_VGA.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="Prueba_VGA.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Prueba_VGA.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="Prueba_VGA.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="Prueba_VGA.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="Prueba_VGA.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="Prueba_VGA.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="Prueba_VGA.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="Prueba_VGA.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="Prueba_VGA.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VERILOG" xil_pn:name="Prueba_VGA.vf"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="Prueba_VGA.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="Prueba_VGA.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Prueba_VGA_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="Prueba_VGA_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="Prueba_VGA_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="Prueba_VGA_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="Prueba_VGA_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="Prueba_VGA_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Prueba_VGA_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Prueba_VGA_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="Prueba_VGA_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="Prueba_VGA_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Prueba_VGA_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Prueba_VGA_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="Prueba_VGA_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="Prueba_VGA_usage.xml"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Prueba_VGA_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Prueba_VGA_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="contador_horizontal.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="contador_horizontal.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="contador_horizontal.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="contador_horizontal.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="contador_horizontal.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="contador_horizontal.spl"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="contador_horizontal.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="contador_horizontal.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="contador_horizontal.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="contador_horizontal.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="contador_horizontal_summary.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="contador_horizontal_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="contador_horizontal_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="contador_vertical.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="contador_vertical.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="contador_vertical.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="contador_vertical.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="contador_vertical.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="contador_vertical.spl"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="contador_vertical.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="contador_vertical.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="contador_vertical.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="contador_vertical.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="contador_vertical_summary.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="contador_vertical_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="contador_vertical_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="generador_blank.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="generador_blank.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="generador_blank.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="generador_blank.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="generador_blank.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="generador_blank.spl"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="generador_blank.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="generador_blank.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="generador_blank.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="generador_blank.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="generador_blank_summary.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="generador_blank_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="generador_blank_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="generador_hsync.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="generador_hsync.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="generador_hsync.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="generador_hsync.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="generador_hsync.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="generador_hsync.spl"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="generador_hsync.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="generador_hsync.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="generador_hsync.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="generador_hsync.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="generador_hsync_summary.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="generador_hsync_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="generador_hsync_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="generador_imagen.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="generador_imagen.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="generador_imagen.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="generador_imagen.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="generador_imagen.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="generador_imagen.spl"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="generador_imagen.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="generador_imagen.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="generador_imagen.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="generador_imagen.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="generador_imagen_summary.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="generador_imagen_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="generador_imagen_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="generador_vsync.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="generador_vsync.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="generador_vsync.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="generador_vsync.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="generador_vsync.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="generador_vsync.spl"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="generador_vsync.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="generador_vsync.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="generador_vsync.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="generador_vsync.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="generador_vsync_summary.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="generador_vsync_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="generador_vsync_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_VHDL" xil_pn:name="ipcore_dir/DCM.vhd" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="ipcore_dir/coregen.log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="prueba_vga.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="prueba_vga.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="prueba_vga.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="usage_statistics_webtalk.html"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="xaw2verilog.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1559690735" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1559690735">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1560384132" xil_pn:in_ck="6201254676243145544" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="2895962564942922005" xil_pn:start_ts="1560384126">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Prueba_VGA.vf"/>
+    </transform>
+    <transform xil_pn:end_ts="1559692835" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="3716321336618677787" xil_pn:start_ts="1559692835">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1559692835" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1559692835">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1559692838" xil_pn:in_ck="-7186897628155588095" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-7753925688744947373" xil_pn:start_ts="1559692835">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="DCM.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1559692838" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-3893270297158069842" xil_pn:start_ts="1559692838">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1559692838" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-1494719821318062683" xil_pn:start_ts="1559692838">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1560384154" xil_pn:in_ck="-5113239514846518947" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="4074188008798491694" xil_pn:start_ts="1560384132">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Prueba_VGA.jhd"/>
+      <outfile xil_pn:name="Prueba_VGA.lso"/>
+      <outfile xil_pn:name="Prueba_VGA.ngc"/>
+      <outfile xil_pn:name="Prueba_VGA.ngr"/>
+      <outfile xil_pn:name="Prueba_VGA.prj"/>
+      <outfile xil_pn:name="Prueba_VGA.stx"/>
+      <outfile xil_pn:name="Prueba_VGA.syr"/>
+      <outfile xil_pn:name="Prueba_VGA.xst"/>
+      <outfile xil_pn:name="Prueba_VGA_vhdl.prj"/>
+      <outfile xil_pn:name="Prueba_VGA_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="contador_horizontal.ngr"/>
+      <outfile xil_pn:name="contador_vertical.ngr"/>
+      <outfile xil_pn:name="generador_blank.ngr"/>
+      <outfile xil_pn:name="generador_hsync.ngr"/>
+      <outfile xil_pn:name="generador_imagen.ngr"/>
+      <outfile xil_pn:name="generador_vsync.ngr"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1559692907" xil_pn:in_ck="-7824674185610353849" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="8766323882845771646" xil_pn:start_ts="1559692907">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1560384170" xil_pn:in_ck="-4262197990587609812" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="1883430774384828766" xil_pn:start_ts="1560384154">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Prueba_VGA.bld"/>
+      <outfile xil_pn:name="Prueba_VGA.ngd"/>
+      <outfile xil_pn:name="Prueba_VGA_ngdbuild.xrpt"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1560384184" xil_pn:in_ck="5427652165297185290" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-5849673150125579957" xil_pn:start_ts="1560384170">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Prueba_VGA.pcf"/>
+      <outfile xil_pn:name="Prueba_VGA_map.map"/>
+      <outfile xil_pn:name="Prueba_VGA_map.mrp"/>
+      <outfile xil_pn:name="Prueba_VGA_map.ncd"/>
+      <outfile xil_pn:name="Prueba_VGA_map.ngm"/>
+      <outfile xil_pn:name="Prueba_VGA_map.xrpt"/>
+      <outfile xil_pn:name="Prueba_VGA_summary.xml"/>
+      <outfile xil_pn:name="Prueba_VGA_usage.xml"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1560384240" xil_pn:in_ck="-3300068573452048861" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="-5563652517805085498" xil_pn:start_ts="1560384184">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Prueba_VGA.ncd"/>
+      <outfile xil_pn:name="Prueba_VGA.pad"/>
+      <outfile xil_pn:name="Prueba_VGA.par"/>
+      <outfile xil_pn:name="Prueba_VGA.ptwx"/>
+      <outfile xil_pn:name="Prueba_VGA.unroutes"/>
+      <outfile xil_pn:name="Prueba_VGA.xpi"/>
+      <outfile xil_pn:name="Prueba_VGA_pad.csv"/>
+      <outfile xil_pn:name="Prueba_VGA_pad.txt"/>
+      <outfile xil_pn:name="Prueba_VGA_par.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1560384302" xil_pn:in_ck="6201254676243140095" xil_pn:name="TRANEXT_bitFile_spartan3e" xil_pn:prop_ck="2969983391363831627" xil_pn:start_ts="1560384283">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Prueba_VGA.ut"/>
+      <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+      <outfile xil_pn:name="prueba_vga.bgn"/>
+      <outfile xil_pn:name="prueba_vga.bit"/>
+      <outfile xil_pn:name="prueba_vga.drc"/>
+      <outfile xil_pn:name="usage_statistics_webtalk.html"/>
+      <outfile xil_pn:name="webtalk.log"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1560384240" xil_pn:in_ck="5427652165297185158" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416186" xil_pn:start_ts="1560384231">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Prueba_VGA.twr"/>
+      <outfile xil_pn:name="Prueba_VGA.twx"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+    </transform>
+  </transforms>
+
+</generated_project>

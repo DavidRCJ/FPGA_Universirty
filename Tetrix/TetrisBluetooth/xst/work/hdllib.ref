@@ -1,0 +1,22 @@
+AR tetrix behavioral "C:/Users/kevin/FPGA Workspace/Xilinx/Tetris/tetris.vhd" sub00/vhpl17 1561866435
+AR display behavioral C:/Users/Cars/Desktop/TetrisBluetooth/tetris_display.vhd sub00/vhpl09 1561952413
+EN display NULL C:/Users/Cars/Desktop/TetrisBluetooth/tetris_display.vhd sub00/vhpl08 1561952412
+AR score behavioral C:/Users/Cars/Desktop/TetrisBluetooth/score_control.vhd sub00/vhpl13 1561952417
+AR text_display behavioral C:/Users/Cars/Desktop/TetrisBluetooth/text_display.vhd sub00/vhpl11 1561952415
+AR vga behavioral C:/Users/Cars/Desktop/TetrisBluetooth/vga.vhd sub00/vhpl03 1561952409
+EN counters NULL C:/Users/Cars/Desktop/TetrisBluetooth/counter.vhd sub00/vhpl00 1561952406
+AR keyboardvhdl behavioral "C:/Users/kevin/FPGA Workspace/Xilinx/Tetris/keyboard.vhd" sub00/vhpl05 1561866631
+EN text_display NULL C:/Users/Cars/Desktop/TetrisBluetooth/text_display.vhd sub00/vhpl10 1561952414
+EN score NULL C:/Users/Cars/Desktop/TetrisBluetooth/score_control.vhd sub00/vhpl12 1561952416
+AR gamecontrol behavioral C:/Users/Cars/Desktop/TetrisBluetooth/game_control.vhd sub00/vhpl15 1561952419
+EN vga NULL C:/Users/Cars/Desktop/TetrisBluetooth/vga.vhd sub00/vhpl02 1561952408
+EN kbfilter NULL "C:/Users/kevin/FPGA Workspace/Xilinx/Tetris/debounce.vhd" sub00/vhpl06 1561866632
+EN tetris NULL C:/Users/Cars/Desktop/TetrisBluetooth/tetris.vhd sub00/vhpl18 1561952420
+EN tetrix NULL "C:/Users/kevin/FPGA Workspace/Xilinx/Tetris/tetris.vhd" sub00/vhpl16 1561866434
+AR tetris behavioral C:/Users/Cars/Desktop/TetrisBluetooth/tetris.vhd sub00/vhpl19 1561952421
+AR counters behavioral C:/Users/Cars/Desktop/TetrisBluetooth/counter.vhd sub00/vhpl01 1561952407
+AR kbfilter behavioral "C:/Users/kevin/FPGA Workspace/Xilinx/Tetris/debounce.vhd" sub00/vhpl07 1561866633
+EN gamecontrol NULL C:/Users/Cars/Desktop/TetrisBluetooth/game_control.vhd sub00/vhpl14 1561952418
+EN uart_rx NULL C:/Users/Cars/Desktop/TetrisBluetooth/uart_rx.vhd sub00/vhpl20 1561952410
+EN keyboardvhdl NULL "C:/Users/kevin/FPGA Workspace/Xilinx/Tetris/keyboard.vhd" sub00/vhpl04 1561866630
+AR uart_rx rtl C:/Users/Cars/Desktop/TetrisBluetooth/uart_rx.vhd sub00/vhpl21 1561952411

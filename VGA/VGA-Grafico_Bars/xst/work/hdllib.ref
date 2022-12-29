@@ -1,0 +1,14 @@
+EN generador_blank NULL C:/Users/David/Desktop/ExpoVGA/VGA/generador_blank.vhd sub00/vhpl08 1560384144
+EN generador_hsync NULL C:/Users/David/Desktop/ExpoVGA/VGA/generador_hsync.vhd sub00/vhpl04 1560384146
+AR generador_vsync comportamiento C:/Users/David/Desktop/ExpoVGA/VGA/generador_vsync.vhd sub00/vhpl07 1560384151
+AR generador_imagen comportamiento C:/Users/David/Desktop/ExpoVGA/VGA/generador_imagen.vhd sub00/vhpl11 1560384149
+AR contador_vertical comportamiento C:/Users/David/Desktop/ExpoVGA/VGA/contador_vertical.vhd sub00/vhpl03 1560384143
+EN contador_horizontal NULL C:/Users/David/Desktop/ExpoVGA/VGA/contador_horizontal.vhd sub00/vhpl00 1560384140
+AR contador_horizontal comportamiento C:/Users/David/Desktop/ExpoVGA/VGA/contador_horizontal.vhd sub00/vhpl01 1560384141
+EN generador_vsync NULL C:/Users/David/Desktop/ExpoVGA/VGA/generador_vsync.vhd sub00/vhpl06 1560384150
+EN generador_imagen NULL C:/Users/David/Desktop/ExpoVGA/VGA/generador_imagen.vhd sub00/vhpl10 1560384148
+MO Prueba_VGA NULL Prueba_VGA.vf vlg68/_prueba___v_g_a.bin 1560384140
+AR generador_hsync comportamiento C:/Users/David/Desktop/ExpoVGA/VGA/generador_hsync.vhd sub00/vhpl05 1560384147
+AR generador_blank behavioral C:/Users/David/Desktop/ExpoVGA/VGA/generador_blank.vhd sub00/vhpl09 1560384145
+MO DCM NULL DCM.v vlg40/_d_c_m.bin 1560384140
+EN contador_vertical NULL C:/Users/David/Desktop/ExpoVGA/VGA/contador_vertical.vhd sub00/vhpl02 1560384142

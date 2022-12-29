@@ -1,0 +1,49 @@
+V3 18
+FL "C:/Users/kevin/FPGA Workspace/Xilinx/VGA/contador_horizontal.vhd" 2019/06/04.18:25:32 P.20131013
+EN work/contador_horizontal 1559692840 \
+      FL "C:/Users/kevin/FPGA Workspace/Xilinx/VGA/contador_horizontal.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/contador_horizontal/comportamiento 1559692841 \
+      FL "C:/Users/kevin/FPGA Workspace/Xilinx/VGA/contador_horizontal.vhd" \
+      EN work/contador_horizontal 1559692840
+FL "C:/Users/kevin/FPGA Workspace/Xilinx/VGA/contador_vertical.vhd" 2019/06/04.18:28:14 P.20131013
+EN work/contador_vertical 1559692842 \
+      FL "C:/Users/kevin/FPGA Workspace/Xilinx/VGA/contador_vertical.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/contador_vertical/comportamiento 1559692843 \
+      FL "C:/Users/kevin/FPGA Workspace/Xilinx/VGA/contador_vertical.vhd" \
+      EN work/contador_vertical 1559692842
+FL "C:/Users/kevin/FPGA Workspace/Xilinx/VGA/generador_blank.vhd" 2019/06/04.18:34:31 P.20131013
+EN work/generador_blank 1559692844 \
+      FL "C:/Users/kevin/FPGA Workspace/Xilinx/VGA/generador_blank.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/generador_blank/Behavioral 1559692845 \
+      FL "C:/Users/kevin/FPGA Workspace/Xilinx/VGA/generador_blank.vhd" \
+      EN work/generador_blank 1559692844
+FL "C:/Users/kevin/FPGA Workspace/Xilinx/VGA/generador_hsync.vhd" 2019/06/04.18:30:38 P.20131013
+EN work/generador_hsync 1559692846 \
+      FL "C:/Users/kevin/FPGA Workspace/Xilinx/VGA/generador_hsync.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/generador_hsync/comportamiento 1559692847 \
+      FL "C:/Users/kevin/FPGA Workspace/Xilinx/VGA/generador_hsync.vhd" \
+      EN work/generador_hsync 1559692846
+FL "C:/Users/kevin/FPGA Workspace/Xilinx/VGA/generador_imagen.vhd" 2019/06/04.18:37:57 P.20131013
+EN work/generador_imagen 1559692848 \
+      FL "C:/Users/kevin/FPGA Workspace/Xilinx/VGA/generador_imagen.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/generador_imagen/comportamiento 1559692849 \
+      FL "C:/Users/kevin/FPGA Workspace/Xilinx/VGA/generador_imagen.vhd" \
+      EN work/generador_imagen 1559692848
+FL "C:/Users/kevin/FPGA Workspace/Xilinx/VGA/generador_vsync.vhd" 2019/06/04.18:32:41 P.20131013
+EN work/generador_vsync 1559692850 \
+      FL "C:/Users/kevin/FPGA Workspace/Xilinx/VGA/generador_vsync.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/generador_vsync/comportamiento 1559692851 \
+      FL "C:/Users/kevin/FPGA Workspace/Xilinx/VGA/generador_vsync.vhd" \
+      EN work/generador_vsync 1559692850

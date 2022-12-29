@@ -1,0 +1,8 @@
+verilog work "DCM.v"
+vhdl work "generador_vsync.vhd"
+vhdl work "generador_imagen.vhd"
+vhdl work "generador_hsync.vhd"
+vhdl work "generador_blank.vhd"
+vhdl work "contador_vertical.vhd"
+vhdl work "contador_horizontal.vhd"
+verilog work "Prueba_VGA.vf"

@@ -1,0 +1,540 @@
+Release 14.7 - xst P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.52 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.53 secs
+ 
+--> Reading design: Prueba_VGA.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Prueba_VGA.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Prueba_VGA"
+Output Format                      : NGC
+Target Device                      : xc3s500e-4-fg320
+
+---- Source Options
+Top Module Name                    : Prueba_VGA
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "DCM.v" in library work
+Compiling verilog file "Prueba_VGA.vf" in library work
+Module <DCM> compiled
+Module <Prueba_VGA> compiled
+No errors in compilation
+Analysis of file <"Prueba_VGA.prj"> succeeded.
+ 
+WARNING:HDLParsers:3607 - Unit work/contador_horizontal is now defined in a different file.  It was defined in "C:/Users/David/Desktop/VGA/contador_horizontal.vhd", and is now defined in "C:/Users/David/Desktop/ExpoVGA/VGA/contador_horizontal.vhd".
+WARNING:HDLParsers:3607 - Unit work/contador_horizontal/comportamiento is now defined in a different file.  It was defined in "C:/Users/David/Desktop/VGA/contador_horizontal.vhd", and is now defined in "C:/Users/David/Desktop/ExpoVGA/VGA/contador_horizontal.vhd".
+WARNING:HDLParsers:3607 - Unit work/contador_vertical is now defined in a different file.  It was defined in "C:/Users/David/Desktop/VGA/contador_vertical.vhd", and is now defined in "C:/Users/David/Desktop/ExpoVGA/VGA/contador_vertical.vhd".
+WARNING:HDLParsers:3607 - Unit work/contador_vertical/comportamiento is now defined in a different file.  It was defined in "C:/Users/David/Desktop/VGA/contador_vertical.vhd", and is now defined in "C:/Users/David/Desktop/ExpoVGA/VGA/contador_vertical.vhd".
+WARNING:HDLParsers:3607 - Unit work/generador_blank is now defined in a different file.  It was defined in "C:/Users/David/Desktop/VGA/generador_blank.vhd", and is now defined in "C:/Users/David/Desktop/ExpoVGA/VGA/generador_blank.vhd".
+WARNING:HDLParsers:3607 - Unit work/generador_blank/Behavioral is now defined in a different file.  It was defined in "C:/Users/David/Desktop/VGA/generador_blank.vhd", and is now defined in "C:/Users/David/Desktop/ExpoVGA/VGA/generador_blank.vhd".
+WARNING:HDLParsers:3607 - Unit work/generador_hsync is now defined in a different file.  It was defined in "C:/Users/David/Desktop/VGA/generador_hsync.vhd", and is now defined in "C:/Users/David/Desktop/ExpoVGA/VGA/generador_hsync.vhd".
+WARNING:HDLParsers:3607 - Unit work/generador_hsync/comportamiento is now defined in a different file.  It was defined in "C:/Users/David/Desktop/VGA/generador_hsync.vhd", and is now defined in "C:/Users/David/Desktop/ExpoVGA/VGA/generador_hsync.vhd".
+WARNING:HDLParsers:3607 - Unit work/generador_imagen is now defined in a different file.  It was defined in "C:/Users/David/Desktop/VGA/generador_imagen.vhd", and is now defined in "C:/Users/David/Desktop/ExpoVGA/VGA/generador_imagen.vhd".
+WARNING:HDLParsers:3607 - Unit work/generador_imagen/comportamiento is now defined in a different file.  It was defined in "C:/Users/David/Desktop/VGA/generador_imagen.vhd", and is now defined in "C:/Users/David/Desktop/ExpoVGA/VGA/generador_imagen.vhd".
+WARNING:HDLParsers:3607 - Unit work/generador_vsync is now defined in a different file.  It was defined in "C:/Users/David/Desktop/VGA/generador_vsync.vhd", and is now defined in "C:/Users/David/Desktop/ExpoVGA/VGA/generador_vsync.vhd".
+WARNING:HDLParsers:3607 - Unit work/generador_vsync/comportamiento is now defined in a different file.  It was defined in "C:/Users/David/Desktop/VGA/generador_vsync.vhd", and is now defined in "C:/Users/David/Desktop/ExpoVGA/VGA/generador_vsync.vhd".
+Compiling vhdl file "C:/Users/David/Desktop/ExpoVGA/VGA/contador_horizontal.vhd" in Library work.
+Architecture comportamiento of Entity contador_horizontal is up to date.
+Compiling vhdl file "C:/Users/David/Desktop/ExpoVGA/VGA/contador_vertical.vhd" in Library work.
+Architecture comportamiento of Entity contador_vertical is up to date.
+Compiling vhdl file "C:/Users/David/Desktop/ExpoVGA/VGA/generador_blank.vhd" in Library work.
+Architecture behavioral of Entity generador_blank is up to date.
+Compiling vhdl file "C:/Users/David/Desktop/ExpoVGA/VGA/generador_hsync.vhd" in Library work.
+Architecture comportamiento of Entity generador_hsync is up to date.
+Compiling vhdl file "C:/Users/David/Desktop/ExpoVGA/VGA/generador_imagen.vhd" in Library work.
+Architecture comportamiento of Entity generador_imagen is up to date.
+Compiling vhdl file "C:/Users/David/Desktop/ExpoVGA/VGA/generador_vsync.vhd" in Library work.
+Architecture comportamiento of Entity generador_vsync is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for module <Prueba_VGA> in library <work>.
+
+Analyzing hierarchy for entity <contador_horizontal> in library <work> (architecture <comportamiento>).
+
+Analyzing hierarchy for entity <generador_hsync> in library <work> (architecture <comportamiento>).
+
+Analyzing hierarchy for entity <contador_vertical> in library <work> (architecture <comportamiento>).
+
+Analyzing hierarchy for entity <generador_vsync> in library <work> (architecture <comportamiento>).
+
+Analyzing hierarchy for entity <generador_blank> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <generador_imagen> in library <work> (architecture <comportamiento>).
+
+Analyzing hierarchy for module <DCM> in library <work>.
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <Prueba_VGA>.
+Module <Prueba_VGA> is correct for synthesis.
+ 
+Analyzing Entity <contador_horizontal> in library <work> (Architecture <comportamiento>).
+Entity <contador_horizontal> analyzed. Unit <contador_horizontal> generated.
+
+Analyzing Entity <generador_hsync> in library <work> (Architecture <comportamiento>).
+Entity <generador_hsync> analyzed. Unit <generador_hsync> generated.
+
+Analyzing Entity <contador_vertical> in library <work> (Architecture <comportamiento>).
+Entity <contador_vertical> analyzed. Unit <contador_vertical> generated.
+
+Analyzing Entity <generador_vsync> in library <work> (Architecture <comportamiento>).
+Entity <generador_vsync> analyzed. Unit <generador_vsync> generated.
+
+Analyzing Entity <generador_blank> in library <work> (Architecture <behavioral>).
+Entity <generador_blank> analyzed. Unit <generador_blank> generated.
+
+Analyzing Entity <generador_imagen> in library <work> (Architecture <comportamiento>).
+Entity <generador_imagen> analyzed. Unit <generador_imagen> generated.
+
+Analyzing module <DCM> in library <work>.
+Module <DCM> is correct for synthesis.
+ 
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <CLKIN_IBUFG_INST> in unit <DCM>.
+    Set user-defined property "IBUF_DELAY_VALUE =  0" for instance <CLKIN_IBUFG_INST> in unit <DCM>.
+    Set user-defined property "IBUF_LOW_PWR =  TRUE" for instance <CLKIN_IBUFG_INST> in unit <DCM>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <CLKIN_IBUFG_INST> in unit <DCM>.
+    Set user-defined property "CLKDV_DIVIDE =  2.000000" for instance <DCM_SP_INST> in unit <DCM>.
+    Set user-defined property "CLKFX_DIVIDE =  1" for instance <DCM_SP_INST> in unit <DCM>.
+    Set user-defined property "CLKFX_MULTIPLY =  4" for instance <DCM_SP_INST> in unit <DCM>.
+    Set user-defined property "CLKIN_DIVIDE_BY_2 =  FALSE" for instance <DCM_SP_INST> in unit <DCM>.
+    Set user-defined property "CLKIN_PERIOD =  20.000000" for instance <DCM_SP_INST> in unit <DCM>.
+    Set user-defined property "CLKOUT_PHASE_SHIFT =  NONE" for instance <DCM_SP_INST> in unit <DCM>.
+    Set user-defined property "CLK_FEEDBACK =  1X" for instance <DCM_SP_INST> in unit <DCM>.
+    Set user-defined property "DESKEW_ADJUST =  SYSTEM_SYNCHRONOUS" for instance <DCM_SP_INST> in unit <DCM>.
+    Set user-defined property "DFS_FREQUENCY_MODE =  LOW" for instance <DCM_SP_INST> in unit <DCM>.
+    Set user-defined property "DLL_FREQUENCY_MODE =  LOW" for instance <DCM_SP_INST> in unit <DCM>.
+    Set user-defined property "DSS_MODE =  NONE" for instance <DCM_SP_INST> in unit <DCM>.
+    Set user-defined property "DUTY_CYCLE_CORRECTION =  TRUE" for instance <DCM_SP_INST> in unit <DCM>.
+    Set user-defined property "FACTORY_JF =  C080" for instance <DCM_SP_INST> in unit <DCM>.
+    Set user-defined property "PHASE_SHIFT =  0" for instance <DCM_SP_INST> in unit <DCM>.
+    Set user-defined property "STARTUP_WAIT =  FALSE" for instance <DCM_SP_INST> in unit <DCM>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <contador_horizontal>.
+    Related source file is "C:/Users/David/Desktop/ExpoVGA/VGA/contador_horizontal.vhd".
+    Found 11-bit up counter for signal <h_cuenta_int>.
+    Summary:
+	inferred   1 Counter(s).
+Unit <contador_horizontal> synthesized.
+
+
+Synthesizing Unit <generador_hsync>.
+    Related source file is "C:/Users/David/Desktop/ExpoVGA/VGA/generador_hsync.vhd".
+    Found 1-bit register for signal <hsync_aux>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <generador_hsync> synthesized.
+
+
+Synthesizing Unit <contador_vertical>.
+    Related source file is "C:/Users/David/Desktop/ExpoVGA/VGA/contador_vertical.vhd".
+    Found 1-bit register for signal <hsync_s>.
+    Found 1-bit register for signal <hsync_t_1>.
+    Found 10-bit up counter for signal <v_cuenta_int>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   2 D-type flip-flop(s).
+Unit <contador_vertical> synthesized.
+
+
+Synthesizing Unit <generador_vsync>.
+    Related source file is "C:/Users/David/Desktop/ExpoVGA/VGA/generador_vsync.vhd".
+    Found 1-bit register for signal <vsync>.
+    Found 10-bit comparator greatequal for signal <vsync$cmp_ge0000> created at line 24.
+    Found 10-bit comparator lessequal for signal <vsync$cmp_le0000> created at line 24.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+Unit <generador_vsync> synthesized.
+
+
+Synthesizing Unit <generador_blank>.
+    Related source file is "C:/Users/David/Desktop/ExpoVGA/VGA/generador_blank.vhd".
+    Found 11-bit comparator greatequal for signal <blank$cmp_ge0000> created at line 24.
+    Found 10-bit comparator greatequal for signal <blank$cmp_ge0001> created at line 24.
+    Summary:
+	inferred   2 Comparator(s).
+Unit <generador_blank> synthesized.
+
+
+Synthesizing Unit <generador_imagen>.
+    Related source file is "C:/Users/David/Desktop/ExpoVGA/VGA/generador_imagen.vhd".
+WARNING:Xst:646 - Signal <vctr_int> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+    Found 1-bit register for signal <B>.
+    Found 1-bit register for signal <G>.
+    Found 1-bit register for signal <R>.
+    Found 11-bit comparator greatequal for signal <color$cmp_ge0000> created at line 48.
+    Found 11-bit comparator greatequal for signal <color$cmp_ge0001> created at line 48.
+    Found 11-bit comparator greatequal for signal <color$cmp_ge0002> created at line 48.
+    Found 11-bit comparator greatequal for signal <color$cmp_ge0003> created at line 48.
+    Found 11-bit comparator greatequal for signal <color$cmp_ge0004> created at line 48.
+    Found 11-bit comparator greatequal for signal <color$cmp_ge0005> created at line 48.
+    Found 11-bit comparator greatequal for signal <color$cmp_ge0006> created at line 48.
+    Found 11-bit comparator greater for signal <color$cmp_gt0000> created at line 48.
+    Found 11-bit comparator lessequal for signal <color$cmp_le0000> created at line 48.
+    Found 11-bit comparator lessequal for signal <color$cmp_le0001> created at line 48.
+    Found 11-bit comparator less for signal <color$cmp_lt0000> created at line 48.
+    Found 11-bit comparator less for signal <color$cmp_lt0001> created at line 48.
+    Found 11-bit comparator less for signal <color$cmp_lt0002> created at line 48.
+    Found 11-bit comparator less for signal <color$cmp_lt0003> created at line 48.
+    Found 11-bit comparator less for signal <color$cmp_lt0004> created at line 48.
+    Found 11-bit comparator less for signal <color$cmp_lt0005> created at line 48.
+    Found 11-bit comparator less for signal <color$cmp_lt0006> created at line 48.
+    Summary:
+	inferred   3 D-type flip-flop(s).
+	inferred  17 Comparator(s).
+Unit <generador_imagen> synthesized.
+
+
+Synthesizing Unit <DCM>.
+    Related source file is "DCM.v".
+Unit <DCM> synthesized.
+
+
+Synthesizing Unit <Prueba_VGA>.
+    Related source file is "Prueba_VGA.vf".
+Unit <Prueba_VGA> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 2
+ 10-bit up counter                                     : 1
+ 11-bit up counter                                     : 1
+# Registers                                            : 7
+ 1-bit register                                        : 7
+# Comparators                                          : 21
+ 10-bit comparator greatequal                          : 2
+ 10-bit comparator lessequal                           : 1
+ 11-bit comparator greatequal                          : 8
+ 11-bit comparator greater                             : 1
+ 11-bit comparator less                                : 7
+ 11-bit comparator lessequal                           : 2
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:79 - Model 'DCM' has different characteristics in destination library
+WARNING:Xst:80 - Model name has been changed to 'DCM1'
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 2
+ 10-bit up counter                                     : 1
+ 11-bit up counter                                     : 1
+# Registers                                            : 7
+ Flip-Flops                                            : 7
+# Comparators                                          : 21
+ 10-bit comparator greatequal                          : 2
+ 10-bit comparator lessequal                           : 1
+ 11-bit comparator greatequal                          : 8
+ 11-bit comparator greater                             : 1
+ 11-bit comparator less                                : 7
+ 11-bit comparator lessequal                           : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <Prueba_VGA> ...
+
+Optimizing unit <generador_imagen> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Prueba_VGA, actual ratio is 1.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 28
+ Flip-Flops                                            : 28
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : Prueba_VGA.ngr
+Top Level Output File Name         : Prueba_VGA
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 7
+
+Cell Usage :
+# BELS                             : 185
+#      GND                         : 1
+#      INV                         : 11
+#      LUT1                        : 26
+#      LUT2                        : 21
+#      LUT2_D                      : 1
+#      LUT2_L                      : 3
+#      LUT3                        : 9
+#      LUT3_L                      : 2
+#      LUT4                        : 35
+#      LUT4_D                      : 4
+#      LUT4_L                      : 5
+#      MUXCY                       : 45
+#      VCC                         : 1
+#      XORCY                       : 21
+# FlipFlops/Latches                : 28
+#      FDC                         : 16
+#      FDCE                        : 10
+#      FDP                         : 1
+#      FDPE                        : 1
+# Clock Buffers                    : 1
+#      BUFG                        : 1
+# IO Buffers                       : 7
+#      IBUF                        : 1
+#      IBUFG                       : 1
+#      OBUF                        : 5
+# DCMs                             : 1
+#      DCM_SP                      : 1
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-4 
+
+ Number of Slices:                       62  out of   4656     1%  
+ Number of Slice Flip Flops:             28  out of   9312     0%  
+ Number of 4 input LUTs:                117  out of   9312     1%  
+ Number of IOs:                           7
+ Number of bonded IOBs:                   7  out of    232     3%  
+ Number of GCLKs:                         1  out of     24     4%  
+ Number of DCMs:                          1  out of      4    25%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | XLXI_7/DCM_SP_INST:CLK0| 28    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+rst                                | IBUF                   | 28    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 7.157ns (Maximum Frequency: 139.723MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 4.394ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 7.157ns (frequency: 139.723MHz)
+  Total number of paths / destination ports: 717 / 39
+-------------------------------------------------------------------------
+Delay:               7.157ns (Levels of Logic = 8)
+  Source:            XLXI_1/h_cuenta_int_7 (FF)
+  Destination:       XLXI_6/B (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: XLXI_1/h_cuenta_int_7 to XLXI_6/B
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q             12   0.591   1.136  XLXI_1/h_cuenta_int_7 (XLXI_1/h_cuenta_int_7)
+     LUT1:I0->O            1   0.704   0.000  XLXI_6/Mcompar_color_cmp_lt0002_cy<3>_1_rt (XLXI_6/Mcompar_color_cmp_lt0002_cy<3>_1_rt)
+     MUXCY:S->O            1   0.464   0.000  XLXI_6/Mcompar_color_cmp_lt0002_cy<3>_1 (XLXI_6/Mcompar_color_cmp_lt0002_cy<3>2)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_6/Mcompar_color_cmp_lt0002_cy<4>_0 (XLXI_6/Mcompar_color_cmp_lt0002_cy<4>1)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_6/Mcompar_color_cmp_lt0002_cy<5>_0 (XLXI_6/Mcompar_color_cmp_lt0002_cy<5>1)
+     MUXCY:CI->O           3   0.459   0.706  XLXI_6/Mcompar_color_cmp_lt0002_cy<6>_0 (XLXI_6/Mcompar_color_cmp_lt0002_cy<6>1)
+     LUT2:I0->O            1   0.704   0.455  XLXI_6/color<0>1 (XLXI_6/color<0>1)
+     LUT4_L:I2->LO         1   0.704   0.104  XLXI_6/color<0>10 (XLXI_6/color<0>10)
+     LUT4:I3->O            1   0.704   0.000  XLXI_6/color<0>32 (XLXI_6/color<0>)
+     FDC:D                     0.308          XLXI_6/B
+    ----------------------------------------
+    Total                      7.157ns (4.756ns logic, 2.401ns route)
+                                       (66.5% logic, 33.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 5 / 5
+-------------------------------------------------------------------------
+Offset:              4.394ns (Levels of Logic = 1)
+  Source:            XLXI_2/hsync_aux (FF)
+  Destination:       HSYNC (PAD)
+  Source Clock:      clk rising
+
+  Data Path: XLXI_2/hsync_aux to HSYNC
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDPE:C->Q             3   0.591   0.531  XLXI_2/hsync_aux (XLXI_2/hsync_aux)
+     OBUF:I->O                 3.272          HSYNC_OBUF (HSYNC)
+    ----------------------------------------
+    Total                      4.394ns (3.863ns logic, 0.531ns route)
+                                       (87.9% logic, 12.1% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 14.00 secs
+Total CPU time to Xst completion: 13.91 secs
+ 
+--> 
+
+Total memory usage is 279864 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   15 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

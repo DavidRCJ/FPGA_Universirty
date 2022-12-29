@@ -1,0 +1,6 @@
+vhdl work "C:\Users\David\Desktop\ExpoVGA\VGA\generador_vsync.vhd"
+vhdl work "C:\Users\David\Desktop\ExpoVGA\VGA\generador_imagen.vhd"
+vhdl work "C:\Users\David\Desktop\ExpoVGA\VGA\generador_hsync.vhd"
+vhdl work "C:\Users\David\Desktop\ExpoVGA\VGA\generador_blank.vhd"
+vhdl work "C:\Users\David\Desktop\ExpoVGA\VGA\contador_vertical.vhd"
+vhdl work "C:\Users\David\Desktop\ExpoVGA\VGA\contador_horizontal.vhd"

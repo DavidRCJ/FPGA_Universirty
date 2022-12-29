@@ -1,0 +1,17 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Sat Jun 29 13:46:32 2019
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "kc" LOCATE = SITE "R12" LEVEL 1;
+COMP "kd" LOCATE = SITE "P11" LEVEL 1;
+COMP "hs" LOCATE = SITE "T4" LEVEL 1;
+COMP "vs" LOCATE = SITE "U3" LEVEL 1;
+COMP "blu" LOCATE = SITE "U4" LEVEL 1;
+COMP "grn" LOCATE = SITE "P6" LEVEL 1;
+COMP "red" LOCATE = SITE "R8" LEVEL 1;
+COMP "mclk" LOCATE = SITE "B8" LEVEL 1;
+PIN mclk_pin<0> = BEL "mclk" PINNAME PAD;
+PIN "mclk_pin<0>" CLOCK_DEDICATED_ROUTE = FALSE;
+SCHEMATIC END;
+

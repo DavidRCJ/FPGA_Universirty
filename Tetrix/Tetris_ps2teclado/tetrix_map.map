@@ -1,0 +1,85 @@
+Release 14.7 Map P.20131013 (nt)
+Xilinx Map Application Log File for Design 'tetrix'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr b
+-c 100 -o tetrix_map.ncd tetrix.ngd tetrix.pcf 
+Target Device  : xc3s1200e
+Target Package : fg320
+Target Speed   : -4
+Mapper Version : spartan3e -- $Revision: 1.55 $
+Mapped Date    : Sat Jun 29 13:46:24 2019
+
+Mapping design into LUTs...
+WARNING:MapLib:864 - The following Virtex Blockram(s) is/are being retargeted to
+   Virtex2 Blockram(s). This will waste 75% of Virtex2 Blockram capacity. To
+   obtain better utilization, Please re-run memory generator to retarget to
+   Virtex2 Blockram modules:
+   RAMB4_S4_S4 symbol "RAMB4_S4_S4_inst" (output signal=DOA<3>),
+   RAMB4_S8_S8 symbol "RAMB4_S8_S8_inst" (output signal=DOBt<6>),
+   RAMB4_S8 symbol "textdisplay/RAMB4_S8_inst1" (output
+   signal=textdisplay/cp1<7>),
+   RAMB4_S8 symbol "textdisplay/RAMB4_S8_inst2" (output
+   signal=textdisplay/cp0<7>)
+Running directed packing...
+WARNING:Pack:266 - The function generator tetrix_gamecontrol/cx_mux0000<1>1149
+   failed to merge with F5 multiplexer
+   tetrix_gamecontrol/cx_mux0000<1>111122_SW0.  There is a conflict for the
+   FXMUX.  The design will exhibit suboptimal timing.
+Running delay-based LUT packing...
+Running related packing...
+Updating timing models...
+
+Design Summary
+--------------
+
+Design Summary:
+Number of errors:      0
+Number of warnings:    2
+Logic Utilization:
+  Number of Slice Flip Flops:           302 out of  17,344    1%
+  Number of 4 input LUTs:             1,518 out of  17,344    8%
+Logic Distribution:
+  Number of occupied Slices:            857 out of   8,672    9%
+    Number of Slices containing only related logic:     857 out of     857 100%
+    Number of Slices containing unrelated logic:          0 out of     857   0%
+      *See NOTES below for an explanation of the effects of unrelated logic.
+  Total Number of 4 input LUTs:       1,562 out of  17,344    9%
+    Number used as logic:             1,515
+    Number used as a route-thru:         44
+    Number used as Shift registers:       3
+
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+
+  Number of bonded IOBs:                  8 out of     250    3%
+  Number of RAMB16s:                      4 out of      28   14%
+  Number of BUFGMUXs:                     4 out of      24   16%
+
+Average Fanout of Non-Clock Nets:                3.62
+
+Peak Memory Usage:  285 MB
+Total REAL time to MAP completion:  9 secs 
+Total CPU time to MAP completion:   9 secs 
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity - e.g. two
+   LUTs are "related" if they share common inputs.  When assembling slices,
+   Map gives priority to combine logic that is related.  Doing so results in
+   the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin packing
+   unrelated logic into a slice once 99% of the slices are occupied through
+   related logic packing.
+
+   Note that once logic distribution reaches the 99% level through related
+   logic packing, this does not mean the device is completely utilized.
+   Unrelated logic packing will then begin, continuing until all usable LUTs
+   and FFs are occupied.  Depending on your timing budget, increased levels of
+   unrelated logic packing may adversely affect the overall timing performance
+   of your design.
+
+Mapping completed.
+See MAP report file "tetrix_map.mrp" for details.

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/contador_horizontal</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/David/Desktop/VGA/contador_horizontal.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/David/Desktop/ExpoVGA/VGA/contador_horizontal.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/contador_horizontal/comportamiento</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/David/Desktop/VGA/contador_horizontal.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/David/Desktop/ExpoVGA/VGA/contador_horizontal.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/contador_vertical</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/David/Desktop/VGA/contador_vertical.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/David/Desktop/ExpoVGA/VGA/contador_vertical.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/contador_vertical/comportamiento</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/David/Desktop/VGA/contador_vertical.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/David/Desktop/ExpoVGA/VGA/contador_vertical.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/generador_blank</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/David/Desktop/VGA/generador_blank.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/David/Desktop/ExpoVGA/VGA/generador_blank.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/generador_blank/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/David/Desktop/VGA/generador_blank.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/David/Desktop/ExpoVGA/VGA/generador_blank.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/generador_hsync</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/David/Desktop/VGA/generador_hsync.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/David/Desktop/ExpoVGA/VGA/generador_hsync.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/generador_hsync/comportamiento</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/David/Desktop/VGA/generador_hsync.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/David/Desktop/ExpoVGA/VGA/generador_hsync.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/generador_imagen</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/David/Desktop/VGA/generador_imagen.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/David/Desktop/ExpoVGA/VGA/generador_imagen.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/generador_imagen/comportamiento</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/David/Desktop/VGA/generador_imagen.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/David/Desktop/ExpoVGA/VGA/generador_imagen.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/generador_vsync</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/David/Desktop/VGA/generador_vsync.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/David/Desktop/ExpoVGA/VGA/generador_vsync.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/generador_vsync/comportamiento</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/David/Desktop/VGA/generador_vsync.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/David/Desktop/ExpoVGA/VGA/generador_vsync.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">vctr_int</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="79" delta="old" >Model &apos;<arg fmt="%s" index="1">DCM</arg>&apos; has different characteristics in destination library
+</msg>
+
+<msg type="warning" file="Xst" num="80" delta="old" >Model name has been changed to &apos;<arg fmt="%s" index="1">DCM1</arg>&apos;
+</msg>
+
+</messages>
+

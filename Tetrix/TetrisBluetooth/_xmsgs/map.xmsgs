@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="MapLib" num="562" delta="old" >No environment variables are currently set.
+</msg>
+
+<msg type="warning" file="MapLib" num="864" delta="old" >The following Virtex Blockram(s) is/are being retargeted to Virtex2 Blockram(s). This will waste 75% of Virtex2 Blockram capacity. To obtain better utilization, Please re-run memory generator to retarget to Virtex2 Blockram modules:
+<arg fmt="%s" index="1">RAMB4_S4_S4 symbol &quot;RAMB4_S4_S4_inst&quot; (output signal=DOA&lt;3&gt;),
+RAMB4_S8_S8 symbol &quot;RAMB4_S8_S8_inst&quot; (output signal=DOBt&lt;6&gt;),
+RAMB4_S8 symbol &quot;textdisplay/RAMB4_S8_inst1&quot; (output signal=textdisplay/cp1&lt;7&gt;),
+RAMB4_S8 symbol &quot;textdisplay/RAMB4_S8_inst2&quot; (output signal=textdisplay/cp0&lt;7&gt;)</arg>
+</msg>
+
+<msg type="info" file="LIT" num="244" delta="old" >All of the single ended outputs in this design are using slew rate limited output drivers. The delay on speed critical single ended outputs can be dramatically reduced by designating them as fast outputs.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="old" >The function generator <arg fmt="%s" index="1">tetrix_gamecontrol/cx_mux0000&lt;1&gt;1149</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">tetrix_gamecontrol/cx_mux0000&lt;1&gt;111122_SW0</arg>.  <arg fmt="%z" index="3">There is a conflict for the FXMUX.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+</messages>
+

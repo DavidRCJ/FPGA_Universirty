@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "C:/Users/kevin/FPGA Workspace/Xilinx/VGA/contador_vertical.xst" -ofn "C:/Users/kevin/FPGA Workspace/Xilinx/VGA/contador_vertical.syr" 
+vhdtdtfi -lib work contador_vertical.vhd -prj VGA -o contador_vertical.spl -module contador_vertical -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e contador_vertical.spl {C:/Users/kevin/FPGA Workspace/Xilinx/VGA/contador_vertical.sym} 
